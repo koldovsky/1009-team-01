@@ -1,0 +1,123 @@
+body {
+    background-color: #f6f1f0;
+    font-family: Inter, sans-serif;
+    margin: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/* Style for header */
+.top-nav {
+    padding: 20px 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.header__nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__logo-container {
+    flex: 1;
+}
+
+.header__nav-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.header__nav-link {
+    text-decoration: none;
+    color: #7c7669;
+    margin: 20px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.header__burger-menu {
+    display: none;
+}
+
+.header__call-us {
+    list-style-type: none;
+    font-size: 14px;
+    color: rgba(111, 108, 78, 0.75);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.header__call-us-link {
+    text-decoration: none;
+    color: rgb(111, 108, 78)
+}
+
+.hero {
+    background-image: url("images/hero-background.png");
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero__content {
+    padding-bottom: 240px;
+    padding-top: 240px;
+    max-width: 50%;
+    text-align: left;
+}
+
+.hero__title {
+    font-family: "Mrs Saint Delafield";
+    font-size: 24px;
+    color: rgb(183, 190, 198);
+}
+
+.hero__subtitle {
+    font-family: "Frank Ruhl Libre";
+    font-size: 54px;
+    color: #7c7669;
+    margin: 18px 0;
+}
+
+.hero__text {
+    font-size: 18px;
+    color: rgb(145, 140, 116);
+}
+
+.divider{
+    width: 60px;
+    height: 2px;
+    margin: 18px 0;
+    background-color: rgb(183, 190, 198);
+}
+
+.hero__action {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #7c7669;
+    border: 2px solid #7c7669;
+    padding: 18px 30px;
+    margin: 10px 0;
+    transition: color, background-color 0.2s linear;
+}
+
+.hero__action:hover {
+    color: white;
+    background-color: #7c7669;
+}
