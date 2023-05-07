@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #f6f1f0;
     font-family: Inter, sans-serif;
@@ -65,7 +69,7 @@ body {
 }
 
 .hero {
-    background-image: url("images/hero-background.png");
+    background-image: url("../images/hero-background.png");
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -96,7 +100,7 @@ body {
     color: rgb(145, 140, 116);
 }
 
-.divider{
+.divider {
     width: 60px;
     height: 2px;
     margin: 18px 0;
