@@ -1,0 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f6f1f0;
+    font-family: Inter, sans-serif;
+    margin: 0;
+    position: relative;
+    box-sizing: border-box;
+}
