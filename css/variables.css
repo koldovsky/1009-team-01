@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
+
+:root {
+    --font-decorative-text: 'Mrs Saint Delafield', cursive;
+    --font-main-accent-text: "Frank Ruhl Libre";
+    --font-text: Inter, sans-serif;
+
+    --background-main-color: #F7F1EC;
+    --text-decorative-color: #B7BEC6;
+    --text-main-accent-color: #7C7669;
+    --text-subtitle-color: #918C74;
+    --text-color: #A39F96;
+    --text-name-item-color: #6F6C4E;
+    --text-price-color: #C0BFA8;
+    --compositions-text-color: #F6F1ED;
+
+
+    --btn-primary-text-color: #7C7669;
+    --btn-primary-hover-text-color: #FFFFFF;
+    --btn-primary-hover-background-color: #7C7669;
+
+    --btn-secondary-text-color: #FFFFFF;
+    --btn-secondary-background-color: #7C7669;
+    --btn-secondary-hover-background-color: #6F6C4E;
+}
