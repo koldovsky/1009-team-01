@@ -24,19 +24,19 @@
 .new-bouquets__composition-i,
 .new-bouquets__order-icon, 
 .new-bouquets__order-flowers {
-    color: #F6F1ED;
+    color: var(--compositions-text-color);
 }
 
 divider {
     height: 2px;
     width: 6%;
-    background-color: rgba(111, 108, 78, 0.19);
+    background-color: var(--text-decorative-color);
 }
 
 .new-bouquets__composition-subtitle,
 .new-bouquets__order-types,
 .new-bouquets__composition-title {
-    color: #6F6C4E;
+    color: var(--text-name-item-color);
 }
 
 .new-bouquets__composition-subtitle {
@@ -67,11 +67,11 @@ divider {
     cursor: pointer;
     text-align: center;
     text-decoration: none;
-    background-color: #7c7669;
+    background-color: var(--btn-text-color);
     border: none;
     font-weight: 700;
     letter-spacing: 1px;
     margin-top: 50px;
 }
 
-.new-bouquets__order-flowers:hover {background-color: #6f6c4e;}
+.new-bouquets__order-flowers:hover {background-color: var(--btn-hover-background-color)}

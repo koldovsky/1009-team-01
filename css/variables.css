@@ -12,8 +12,10 @@
     --text-color: #A39F96;
     --text-name-item-color: #6F6C4E;
     --text-price-color: #C0BFA8;
+    --compositions-text-color:#F6F1ED;
+
 
     --btn-text-color: #7C7669;
     --btn-hover-text-color: #FFFFFF;
-    --btn-hover-background-color: #7C7669;
+    --btn-hover-background-color: #6F6C4E; 
 }
