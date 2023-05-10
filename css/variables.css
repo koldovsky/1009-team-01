@@ -2,8 +2,6 @@
 
 :root {
     --font-decorative-text: 'Mrs Saint Delafield', cursive;
-    
-
     --font-main-accent-text: "Frank Ruhl Libre";
     --font-text: Inter, sans-serif;
 
@@ -11,7 +9,6 @@
     --text-subtitle-color: #918c74;
     --text-name-item-color: #6f6c4e;
     --text-price-color: #c0bfa8;
-    --text-main-accent-color: #7c7669;
 
     --font-size-main-menu-text: 12px;
     --font-size-official-info-text: 14px; /* phone number, email*/
@@ -24,10 +21,9 @@
 
     --compositions-text-color: #F6F1ED;
 
-    --btn-font-size-text: 11px;
-
     --background-main-color: #F7F1EC;
 
+    --text-decorative-color: #B7BEC6;
     --text-main-accent-color: #7C7669;
     --text-subtitle-color: #918C74;
     --text-color: #A39F96;
@@ -42,12 +38,11 @@
     --btn-secondary-background-color: #7C7669;
     --btn-secondary-hover-background-color: #6F6C4E;
 
-    /*special variables for header.partial */
+    --btn-font-size-text: 11px;
+
     --hero-font-size-subtitle-text: 62px;
     --hero-btn-action-font-size-text: 12px;
     --header-text-color-call-us: #6F6C4EBF;
 
-
-    /*special variables for new-bouquets.partial */
     --new-bouquets-text-color-compositions: #F6F1ED;
 }
