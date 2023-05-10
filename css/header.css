@@ -33,7 +33,7 @@
     text-transform: uppercase;
     color: var(--text-main-accent-color);
     margin: 20px;
-    font-size: 12px;
+    font-size: var(--font-size-main-menu-text);
     letter-spacing: 1px;
 }
 
@@ -43,8 +43,8 @@
 
 .header__call-us {
     list-style-type: none;
-    font-size: 14px;
-    color: #6F6C4EBF;
+    font-size: var(--font-size-official-info-text);
+    color: var(--header-text-color-call-us);
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -72,33 +72,26 @@
 
 .hero__title {
     font-family: var(--font-decorative-text);
-    font-size: 24px;
+    font-size: var(--font-size-decorative-text);
     color: var(--text-decorative-color);
 }
 
 .hero__subtitle {
     font-family: var(--font-main-accent-text);
-    font-size: 54px;
+    font-size: var(--hero-font-size-subtitle-text);
     color: var(--text-main-accent-color);
     margin: 18px 0;
 }
 
 .hero__text {
-    font-size: 18px;
+    font-size: var(--font-size-subtitle-text);
     color: var(--text-subtitle-color);
-}
-
-.divider {
-    width: 60px;
-    height: 2px;
-    margin: 18px 0;
-    background-color: var(--text-decorative-color);
 }
 
 .hero__action {
     text-decoration: none;
     display: inline-block;
-    font-size: 12px;
+    font-size: var(--hero-btn-action-font-size-text);
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;

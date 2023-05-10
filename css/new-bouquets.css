@@ -24,13 +24,7 @@
 .new-bouquets__composition-i,
 .new-bouquets__order-icon,
 .new-bouquets__order-flowers {
-    color: var(--compositions-text-color);
-}
-
-divider {
-    height: 2px;
-    width: 6%;
-    background-color: var(--text-decorative-color);
+    color: var(--new-bouquets-text-color-compositions);
 }
 
 .new-bouquets__composition-subtitle,
