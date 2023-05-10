@@ -6,5 +6,5 @@
 @import "new-bouquets.css";
 @import "features.css";
 @import "about-us.css";
-@import "about-top.css";
-@import "about-bottom.css";
+@import "about/about-top.css";
+@import "about/about-bottom.css";

@@ -1,0 +1,43 @@
+.top__banner-container {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.top__banner {
+    height: 360px;
+    width: 1140px;
+    background-image: url("../../images/about/top/about-background.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    
+}
+
+.top__banner-blocks {
+    max-width: 1200px;
+    height: 360px;
+    padding: 80px 30px;
+}
+
+.top__banner-title {
+    font-family: var(--font-main-accent-text);
+    font-size: var(--font-size-section-title-text);
+    color: var(--compositions-text-color);
+}
+
+.top__banner-home {
+    font-family: var(--font-text);
+    font-size:var(--font-size-text);
+    color: var(--text-main-accent-color);
+}
+
+.top__banner-about {
+    font-family: var(--font-text);
+    font-size:var(--font-size-text);
+    font-weight: bold;
+    color: var(--text-name-item-color);
+}

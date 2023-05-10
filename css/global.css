@@ -12,3 +12,12 @@ body {
     background-color: var(--background-main-color);
     font-family: var(--font-text);
 }
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+}
