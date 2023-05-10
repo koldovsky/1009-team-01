@@ -5,15 +5,25 @@
     --font-main-accent-text: "Frank Ruhl Libre";
     --font-text: Inter, sans-serif;
 
+    --font-size-main-menu-text: 12px;
+    --font-size-official-info-text: 14px; /* phone number, email*/
+    --font-size-decorative-text: 31px;
+    --font-size-section-title-text: 46px;
+    --font-size-subtitle-text: 18px;
+    --font-size-text: 16px;
+    --font-size-name-price-item-text: 19px;
+    --font-size-features-title-text: 24px;
+
+    --btn-font-size-text: 11px;
+
     --background-main-color: #F7F1EC;
+
     --text-decorative-color: #B7BEC6;
     --text-main-accent-color: #7C7669;
     --text-subtitle-color: #918C74;
     --text-color: #A39F96;
     --text-name-item-color: #6F6C4E;
     --text-price-color: #C0BFA8;
-    --compositions-text-color: #F6F1ED;
-
 
     --btn-primary-text-color: #7C7669;
     --btn-primary-hover-text-color: #FFFFFF;
@@ -22,4 +32,13 @@
     --btn-secondary-text-color: #FFFFFF;
     --btn-secondary-background-color: #7C7669;
     --btn-secondary-hover-background-color: #6F6C4E;
+
+    /*special variables for header.partial */
+    --hero-font-size-subtitle-text: 62px;
+    --hero-btn-action-font-size-text: 12px;
+    --header-text-color-call-us: #6F6C4EBF;
+
+
+    /*special variables for new-bouquets.partial */
+    --new-bouquets-text-color-compositions: #F6F1ED;
 }
