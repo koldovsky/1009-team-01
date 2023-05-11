@@ -20,6 +20,11 @@
     flex: 1;
 }
 
+.header__logo-icon{
+    width: 121px;
+    height: auto;
+}
+
 .header__nav-list {
     list-style-type: none;
     display: flex;
