@@ -1,14 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Inter&family=Mrs+Saint+Delafield&display=swap');
 
 :root {
     --font-decorative-text: 'Mrs Saint Delafield', cursive;
     --font-main-accent-text: "Frank Ruhl Libre";
     --font-text: Inter, sans-serif;
-
-    --text-decorative-color: #B7BEC6;
-    --text-subtitle-color: #918c74;
-    --text-name-item-color: #6f6c4e;
-    --text-price-color: #c0bfa8;
 
     --font-size-main-menu-text: 12px;
     --font-size-official-info-text: 14px; /* phone number, email*/
@@ -18,8 +13,7 @@
     --font-size-text: 16px;
     --font-size-name-price-item-text: 19px;
     --font-size-features-title-text: 24px;
-
-    --compositions-text-color: #F6F1ED;
+    --font-size-about-title: 34px;
 
     --background-main-color: #F7F1EC;
 
@@ -29,6 +23,7 @@
     --text-color: #A39F96;
     --text-name-item-color: #6F6C4E;
     --text-price-color: #C0BFA8;
+    --text-about-title-color: #f6f1ed;
     --text-price-color-line-through: #c5cbd6;
 
     --btn-primary-text-color: #7C7669;
