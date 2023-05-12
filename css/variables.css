@@ -13,6 +13,7 @@
     --font-size-text: 16px;
     --font-size-name-price-item-text: 19px;
     --font-size-features-title-text: 24px;
+    --font-size-about-title: 34px;
 
     --background-main-color: #F7F1EC;
 
@@ -22,6 +23,7 @@
     --text-color: #A39F96;
     --text-name-item-color: #6F6C4E;
     --text-price-color: #C0BFA8;
+    --text-about-title-color: #f6f1ed;
 
     --btn-primary-text-color: #7C7669;
     --btn-primary-hover-text-color: #FFFFFF;
