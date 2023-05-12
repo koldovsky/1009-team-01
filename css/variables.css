@@ -2,7 +2,7 @@
 
 :root {
     --font-decorative-text: 'Mrs Saint Delafield', cursive;
-    --font-main-accent-text: "Frank Ruhl Libre";
+    --font-main-accent-text: "Frank Ruhl Libre", serif;
     --font-text: Inter, sans-serif;
 
     --font-size-main-menu-text: 12px;
@@ -14,6 +14,7 @@
     --font-size-name-price-item-text: 19px;
     --font-size-features-title-text: 24px;
     --font-size-about-title: 34px;
+    --font-size-about-section-title: 28px;
 
     --background-main-color: #F7F1EC;
 
