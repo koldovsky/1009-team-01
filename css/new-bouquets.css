@@ -12,7 +12,7 @@
 .container-composition-text {
     background-image: url('../images/composition-card-background.png');
     background-size: cover;
-    padding: 80px;
+    padding: 50px;
 
 }
 
@@ -52,6 +52,7 @@
 
 .new-bouquets__order-icon {
     margin-bottom: -5px;
+    width: 20px;
 
 }
 

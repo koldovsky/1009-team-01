@@ -3,9 +3,11 @@
 @import "components.css";
 
 @import "header.css";
+@import "catalog-bouquets.css";
 @import "new-bouquets.css";
 @import "catalog.css";
 @import "features.css";
 @import "about-us.css";
 @import "about/about-top.css";
 @import "about/about-bottom.css";
+@import url(bootsrtap-overrides.css);

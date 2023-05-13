@@ -1,0 +1,33 @@
+.catalog-bouquets__name {
+    margin-top: 24px;
+	font-size: var(--font-size-name-price-item-text);
+	font-weight: 600;
+	line-height: 26.6px;
+	color: var(--text-name-item-color);
+	text-decoration: none;
+}
+
+.catalog-bouquets__price {
+    margin: 0 8px 0 8px;
+	font-size: var(--font-size-name-price-item-text);
+	font-weight: 700;
+	line-height: 26.6px;
+	color: var(--text-price-color);
+}
+
+.catalog-bouquets__add-to-cart {
+    font-size: var(--btn-font-size-text);
+	border: 2px solid var(--text-main-accent-color);
+	background-color: inherit;
+	font-weight: 700;
+	letter-spacing: 1.1px;
+	text-transform: uppercase;
+	margin-top: 24px;
+	padding: 15px 26px;
+	transition: 0.3s ease-in-out;
+}
+
+.catalog-bouquets__add-to-cart:hover{
+	color: var(--btn-primary-hover-text-color);
+	background-color: var(--btn-primary-text-color);
+}
