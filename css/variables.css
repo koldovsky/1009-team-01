@@ -5,19 +5,15 @@
     --font-main-accent-text: "Frank Ruhl Libre", serif;
     --font-text: Inter, sans-serif;
 
-<<<<<<< HEAD
-
     --background-main-color: #F7F1EC;
     --text-decorative-color: #B7BEC6;
     --text-main-accent-color: #7C7669;
     --text-subtitle-color: #918C74;
     --text-color: #A39F96;
     --text-name-item-color: #6F6C4E;
-    --text-price-color: #C0bFA8;
+    --text-price-color: #C0BFA8;
     --compositions-text-color: #F6F1ED;
 
-=======
->>>>>>> 315b2d5831820e37c9b645a0ec63c92d44756f6f
     --font-size-main-menu-text: 12px;
     --font-size-official-info-text: 14px; /* phone number, email*/
     --font-size-decorative-text: 31px;
@@ -29,19 +25,8 @@
     --font-size-about-title: 34px;
     --font-size-about-section-title: 28px;
 
-    --background-main-color: #F7F1EC;
-
-    --text-decorative-color: #B7BEC6;
-    --text-main-accent-color: #7C7669;
-    --text-subtitle-color: #918C74;
-    --text-color: #A39F96;
-    --text-name-item-color: #6F6C4E;
-    --text-price-color: #C0BFA8;
-<<<<<<< HEAD
-=======
-    --text-about-title-color: #f6f1ed;
-    --text-price-color-line-through: #c5cbd6;
->>>>>>> 315b2d5831820e37c9b645a0ec63c92d44756f6f
+    --text-about-title-color: #F6F1ED;
+    --text-price-color-line-through: #C5CBD6;
 
     --btn-primary-text-color: #7C7669;
     --btn-primary-hover-text-color: #FFFFFF;
