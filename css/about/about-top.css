@@ -1,0 +1,114 @@
+/* .container {
+    max-width: 270px;
+    justify-content: center;
+} */
+
+.long-divider {
+    width: 260px;
+    height: 2px;
+    margin: 15px 0;
+    background-color: var(--text-decorative-color);
+}
+
+.top__banner-container {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.top__banner {
+    height: 226px;
+    width: 316px;
+    background-image: url("../../images/about/top/about-background.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    
+}
+
+.top__banner-blocks {
+    width: 270px;
+    height: 226px;
+    padding: 80px 30px;
+}
+
+.top__banner-title {
+    font-family: var(--font-main-accent-text);
+    font-size: var(--font-size-about-title);
+    color: var(--text-about-title-colo);
+}
+
+.top__banner-home {
+    font-family: var(--font-text);
+    font-size:var(--font-size-text);
+    color: var(--text-main-accent-color);
+}
+
+.top__banner-about {
+    font-family: var(--font-text);
+    font-size:var(--font-size-text);
+    font-weight: bold;
+    color: var(--text-name-item-color);
+}
+
+.top__description {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.top__description-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.top__description-image {
+    max-width: 272px;
+    min-height: 300px;
+    padding: 0px 40px 0 40px;
+}
+
+.top__description-title {
+    font-family: var(--font-main-accent-text);
+    font-size:var(--font-size-about-section-title);
+    color: var(--text-main-accent-color);
+}
+
+.top__description-text {
+    font-family: var(--font-text);
+    font-size:var(--font-size-text);
+    color: var(--text-color);
+}
+
+.top__description-button {
+    display: inline-block;
+    position: relative;
+    margin-top: 35px;
+    min-height: 45px;
+    width: 160px;
+}
+
+.top__partners {
+    text-align: center;
+}
+
+.top__partners-elements {
+    padding: 30px 0 30px 0;
+}
+
+.top__partners-slide {
+    width: 200px;
+    max-height: 100px;
+}
+
+.top__partners-slide--image {
+    height: 100px;
+}
+
+.top__photo {
+    max-width: 272px;
+    max-height: 300px;
+}

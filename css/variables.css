@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Inter&family=Mrs+Saint+Delafield&display=swap');
 
 :root {
     --font-decorative-text: 'Mrs Saint Delafield', cursive;
-    --font-main-accent-text: "Frank Ruhl Libre";
+    --font-main-accent-text: "Frank Ruhl Libre", serif;
     --font-text: Inter, sans-serif;
 
+<<<<<<< HEAD
 
     --background-main-color: #F7F1EC;
     --text-decorative-color: #B7BEC6;
@@ -15,6 +16,8 @@
     --text-price-color: #C0bFA8;
     --compositions-text-color: #F6F1ED;
 
+=======
+>>>>>>> 315b2d5831820e37c9b645a0ec63c92d44756f6f
     --font-size-main-menu-text: 12px;
     --font-size-official-info-text: 14px; /* phone number, email*/
     --font-size-decorative-text: 31px;
@@ -23,8 +26,8 @@
     --font-size-text: 16px;
     --font-size-name-price-item-text: 19px;
     --font-size-features-title-text: 24px;
-
-    --btn-font-size-text: 11px;
+    --font-size-about-title: 34px;
+    --font-size-about-section-title: 28px;
 
     --background-main-color: #F7F1EC;
 
@@ -34,6 +37,11 @@
     --text-color: #A39F96;
     --text-name-item-color: #6F6C4E;
     --text-price-color: #C0BFA8;
+<<<<<<< HEAD
+=======
+    --text-about-title-color: #f6f1ed;
+    --text-price-color-line-through: #c5cbd6;
+>>>>>>> 315b2d5831820e37c9b645a0ec63c92d44756f6f
 
     --btn-primary-text-color: #7C7669;
     --btn-primary-hover-text-color: #FFFFFF;
@@ -43,12 +51,11 @@
     --btn-secondary-background-color: #7C7669;
     --btn-secondary-hover-background-color: #6F6C4E;
 
-    /*special variables for header.partial */
+    --btn-font-size-text: 11px;
+
     --hero-font-size-subtitle-text: 62px;
     --hero-btn-action-font-size-text: 12px;
     --header-text-color-call-us: #6F6C4EBF;
 
-
-    /*special variables for new-bouquets.partial */
     --new-bouquets-text-color-compositions: #F6F1ED;
 }

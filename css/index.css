@@ -4,5 +4,10 @@
 
 @import "header.css";
 @import "new-bouquets.css";
+@import "catalog.css";
+@import "gallery.css";
+@import "lightbox/lightbox.css";
 @import "features.css";
 @import "about-us.css";
+@import "about/about-top.css";
+@import "about/about-bottom.css";

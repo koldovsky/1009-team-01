@@ -10,7 +10,7 @@
 }
 
 .container-composition-text {
-    background-image: url('/images/composition-card-background.png');
+    background-image: url('../images/composition-card-background.png');
     background-size: cover;
     padding: 80px;
 
