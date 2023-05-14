@@ -1,19 +1,20 @@
-<header class="header top-nav">
+<header class="header">
   <nav class="header__nav container">
-    <div class="header__logo-container">
-      <a href="index.html" class="header__logo-link">
-        <img
-          class="header__logo-icon"
-          src="images/logo-main.svg"
-          alt="Sami's Flowers logo"
-        />
-      </a>
+    <a href="index.html">
+      <img
+        class="header__logo-icon"
+        src="images/logo-main.svg"
+        alt="Sami's Flowers logo"
+      />
+    </a>
+    <div class="header__burger-menu">
+      <input type="checkbox" id="hamburger" />
+      <label for="hamburger" class="hamburger">
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+      </label>
     </div>
-    <button class="header__burger-menu" type="button">
-      <span class="header__burger-line"></span>
-      <span class="header__burger-line"></span>
-      <span class="header__burger-line"></span>
-    </button>
     <ul class="header__nav-list">
       <li class="header__nav-item">
         <a href="about.html" class="header__nav-link">About us</a>
@@ -31,7 +32,6 @@
         <a href="contacts.html" class="header__nav-link">Contacts</a>
       </li>
     </ul>
-
     <div class="header__call-us">
       Call us:&nbsp;
       <a href="tel:+12345678900" class="header__call-us-link">

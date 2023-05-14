@@ -1,0 +1,44 @@
+label.hamburger {
+    display: block;
+    background: var(--background-main-color);
+    width: 25px;
+    height: 18px;
+    position: relative;
+    cursor: pointer;
+}
+
+input#hamburger {
+    display: none
+}
+
+.header__burger-line {
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: var(--text-name-item-color);
+    transition: 0.2s;
+}
+
+.header__burger-line:nth-child(1) {
+    top: 12px;
+}
+
+.header__burger-line:nth-child(2) {
+    top: 24px;
+}
+
+.header__burger-line:nth-child(3) {
+    top: 36px;
+}
+
+#hamburger:checked+.hamburger .header__burger-line:nth-child(1) {
+    transform: translateY(12px) rotate(-45deg);
+}
+
+#hamburger:checked+.hamburger .header__burger-line:nth-child(2) {
+    opacity: 0;
+}
+
+#hamburger:checked+.hamburger .header__burger-line:nth-child(3) {
+    transform: translateY(-12px) rotate(45deg);
+}
