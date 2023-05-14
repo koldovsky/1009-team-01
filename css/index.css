@@ -3,6 +3,8 @@
 @import "components.css";
 
 @import "header.css";
+@import "header-hamburger-menu.css";
+@import "hero.css";
 @import "new-bouquets.css";
 @import "catalog.css";
 @import "gallery.css";

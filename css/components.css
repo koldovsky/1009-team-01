@@ -1,4 +1,4 @@
-.title{
+.title {
     font-family: var(--font-decorative-text);
     font-size: var(--font-size-decorative-text);
     color: var(--text-decorative-color);
@@ -6,7 +6,7 @@
     line-height: 31px;
 }
 
-.subtitle{
+.subtitle {
     font-family: var(--font-main-accent-text);
     font-size: var(--font-size-section-title-text);
     color: var(--text-main-accent-color);
@@ -14,7 +14,7 @@
     line-height: 55.2px;
 }
 
-.text{
+.text {
     font-size: var(--font-size-subtitle-text);
     color: var(--text-subtitle-color);
     font-weight: 500;
@@ -28,10 +28,10 @@
     background-color: var(--text-decorative-color);
 }
 
-.divider--center{
+.divider--center {
     margin: 0 auto;
-	margin-top: 15px;
-	margin-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     width: 60px;
     height: 2px;
     background-color: var(--text-decorative-color);
