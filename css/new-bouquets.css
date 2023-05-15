@@ -1,14 +1,3 @@
-.new-bouquets__composition-card-background {
-    max-width: 100%;
-    height: auto;
-
-}
-
-.container-composition {
-    margin: 0 10%;
-
-}
-
 .container-composition-text {
     background-image: url('../images/composition-card-background.png');
     background-size: cover;
@@ -16,9 +5,20 @@
 
 }
 
+.new-bouquets,
+.new-bouquets__events {
+    margin-top: 140px;
+}
+
+.new-bouquets__composition-card-background {
+    max-width: 100%;
+    height: auto;
+
+}
+
 .new-bouquets__composition-title {
     font-family: 'Frank Ruhl Libre', serif;
-    font-size: 32px;
+    font-size: 28px;
 }
 
 .new-bouquets__composition-i,
@@ -36,22 +36,23 @@
 .new-bouquets__composition-subtitle {
     font-size: 18px;
     margin-bottom: 24px;
-
 }
 
 .new-bouquets__order-types {
     list-style: none;
     padding: 0;
-    display: flex;
 
+    @media(min-width:576px) {
+        display: flex;
+
+    }
 }
 
 .new-bouquets__order {
-    margin-right: 3%;
+    font-size: 14px;
 }
 
 .new-bouquets__order-icon {
-    margin-bottom: -5px;
     width: 20px;
 
 }
@@ -72,3 +73,21 @@
 .new-bouquets__order-flowers:hover {
     background-color: var(--btn-secondary-hover-background-color)
 }
+
+.new-bouquets__event-icon {
+    width: 50px;
+
+}
+
+@media (min-width: 576px){
+    .new-bouquets__event {
+        width: 20%;
+    }
+    .new-bouquets__events {
+        display: flex;
+    }
+}
+
+
+
+

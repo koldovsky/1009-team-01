@@ -21,27 +21,47 @@
     align-items: center;
 }
 
-.title{
+.title {
     font-family: var(--font-decorative-text);
-    font-size: var(--font-size-decorative-text);
+    font-size: var(--font-size-features-title-text);
     color: var(--text-decorative-color);
     font-weight: 400;
-    line-height: 31px;
+    line-height: 24px;
 }
 
-.subtitle{
+.subtitle {
     font-family: var(--font-main-accent-text);
-    font-size: var(--font-size-section-title-text);
+    font-size: var(--font-size-about-title);
     color: var(--text-main-accent-color);
     font-weight: 400;
-    line-height: 55.2px;
+    line-height: 40.8px;
 }
 
-.text{
+h4 {
+    font-family: var(--font-main-accent-text);
+    font-size: var(--font-size-under-icon-text);
+    color: var(--text-main-accent-color);
+    font-weight: 400;
+    line-height: 28.6px;
+
+}
+
+.text {
+    font-family: var(--font-text);
     font-size: var(--font-size-subtitle-text);
     color: var(--text-subtitle-color);
     font-weight: 500;
     line-height: 27px;
+}
+
+.text-small {
+    font-family: var(--font-text);
+    font-size: 16px;
+    color: var(--text-color);
+    font-weight: 400;
+    line-height: 27px;
+    
+
 }
 
 .divider {
@@ -51,10 +71,10 @@
     background-color: var(--text-decorative-color);
 }
 
-.divider--center{
+.divider--center {
     margin: 0 auto;
-	margin-top: 15px;
-	margin-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     width: 60px;
     height: 2px;
     background-color: var(--text-decorative-color);

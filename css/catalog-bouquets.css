@@ -1,3 +1,7 @@
+.catalog-bouquets {
+	margin-top: 200px;
+}
+
 .catalog-bouquets__name {
     margin-top: 24px;
 	font-size: var(--font-size-name-price-item-text);
@@ -30,4 +34,15 @@
 .catalog-bouquets__add-to-cart:hover{
 	color: var(--btn-primary-hover-text-color);
 	background-color: var(--btn-primary-text-color);
+}
+
+@media screen and (min-width:576px) {
+	.carousel-inner {
+		display: flex;
+	}
+	.carousel-item {
+		margin-right: 0;
+		display: block;
+		/* flex: 0 0 (100%/3); */
+	}
 }
