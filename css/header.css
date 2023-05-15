@@ -60,6 +60,10 @@
     transform-origin: bottom left;
 }
 
+.header__call-us-link:hover {
+    text-decoration: underline;
+}
+
 @media (min-width: 990px) {
     .header__burger-menu {
         display: none;
