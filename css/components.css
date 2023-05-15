@@ -82,6 +82,7 @@ h4 {
 
 .btn {
     text-decoration: none;
+    border-radius: 0;
     display: inline-block;
     font-size: var(--hero-btn-action-font-size-text);
     font-weight: 700;
