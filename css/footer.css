@@ -1,0 +1,27 @@
+.footer__container-logo {
+    width: 149px;
+    height: auto;
+}
+
+.footer__container .call__link {
+    color: var(--header-text-color-call-us);
+}
+
+.footer__container .email__link {
+    color: var(--header-text-color-call-us);
+}
+
+.footer-text {
+    text-align: center;
+    color: var(--header-text-color-call-us); 
+}
+
+@media (min-width: 320px) {
+    .footer__container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex: 1;
+    }
+}

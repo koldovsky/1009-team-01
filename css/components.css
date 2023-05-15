@@ -79,3 +79,34 @@ h4 {
     height: 2px;
     background-color: var(--text-decorative-color);
 }
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    font-size: var(--hero-btn-action-font-size-text);
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 18px 30px;
+    margin: 10px 0;
+    transition: color, background-color 0.2s linear;
+}
+
+.btn--primary {
+    color: var(--btn-primary-text-color);
+    border: 2px solid var(--btn-primary-text-color);
+}
+
+.btn--secondary {
+    color: var(--btn-secondary-text-color);
+    background-color: var(--btn-secondary-background-color);
+}
+
+.btn--primary:hover {
+    color: var(--btn-primary-hover-text-color);
+    background-color: var(--btn-primary-hover-background-color);
+}
+
+.btn--secondary:hover{
+    background-color: var(--btn-secondary-hover-background-color)
+}

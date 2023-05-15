@@ -4,10 +4,16 @@
 
 @import "header.css";
 @import "catalog-bouquets.css";
+@import "header-hamburger-menu.css";
+@import "hero.css";
 @import "new-bouquets.css";
 @import "catalog.css";
+@import "gallery.css";
+@import "lightbox/lightbox.css";
 @import "features.css";
 @import "about-us.css";
 @import "about/about-top.css";
 @import "about/about-bottom.css";
-@import url(bootsrtap-overrides.css);
+@import "bootsrtap-overrides.css";
+@import "our-services.css";
+@import "footer.css";
