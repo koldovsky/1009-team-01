@@ -8,7 +8,7 @@ label.hamburger {
 }
 
 input#hamburger {
-    display: none
+    display: none;
 }
 
 .header__burger-line {
@@ -20,19 +20,19 @@ input#hamburger {
 }
 
 .header__burger-line:nth-child(1) {
-    top: 12px;
+    top: 1px;
 }
 
 .header__burger-line:nth-child(2) {
-    top: 24px;
+    top: 7px;
 }
 
 .header__burger-line:nth-child(3) {
-    top: 36px;
+    top: 13px;
 }
 
 #hamburger:checked+.hamburger .header__burger-line:nth-child(1) {
-    transform: translateY(12px) rotate(-45deg);
+    transform: translateY(7px) rotate(-35deg);
 }
 
 #hamburger:checked+.hamburger .header__burger-line:nth-child(2) {
@@ -40,5 +40,5 @@ input#hamburger {
 }
 
 #hamburger:checked+.hamburger .header__burger-line:nth-child(3) {
-    transform: translateY(-12px) rotate(45deg);
+    transform: translateY(-5px) rotate(35deg);
 }

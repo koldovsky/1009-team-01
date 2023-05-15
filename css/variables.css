@@ -38,7 +38,11 @@
 
     --btn-font-size-text: 11px;
 
-    --hero-font-size-subtitle-text: 62px;
+    --hero-mobile-font-size-decorative-text: 24px;
+    --hero-mobile-font-size-subtitle-text: 54px;
+    --hero-tablet-font-size-subtitle-text: 58px;
+    --hero-desktop-font-size-subtitle-text: 62px;
+    --hero-desktop-font-size-decorative-text: 31px;
     --hero-btn-action-font-size-text: 12px;
     --header-text-color-call-us: #6F6C4EBF;
 
