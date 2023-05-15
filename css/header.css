@@ -27,6 +27,7 @@
     color: var(--text-main-accent-color);
     font-size: var(--font-size-main-menu-text);
     letter-spacing: 1px;
+    position: relative;
 }
 
 .header__call-us {
@@ -39,6 +40,24 @@
     display: none;
     text-decoration: none;
     color: var(--text-name-item-color);
+}
+
+.header__nav-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: var(--text-main-accent-color);
+    transform-origin: bottom left;
+    transition: transform 0.35s ease-out;
+}
+
+.header__nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 @media (min-width: 990px) {
