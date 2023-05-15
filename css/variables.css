@@ -5,15 +5,6 @@
     --font-main-accent-text: "Frank Ruhl Libre", serif;
     --font-text: Inter, sans-serif;
 
-    --background-main-color: #F7F1EC;
-    --text-decorative-color: #B7BEC6;
-    --text-main-accent-color: #7C7669;
-    --text-subtitle-color: #918C74;
-    --text-color: #A39F96;
-    --text-name-item-color: #6F6C4E;
-    --text-price-color: #C0BFA8;
-    --compositions-text-color: #F6F1ED;
-
     --font-size-main-menu-text: 12px;
     --font-size-official-info-text: 14px; /* phone number, email*/
     --font-size-decorative-text: 31px;
@@ -34,8 +25,6 @@
     --text-color: #A39F96;
     --text-name-item-color: #6F6C4E;
     --text-price-color: #C0BFA8;
-    --text-about-title-color: #f6f1ed;
-    --text-price-color-line-through: #c5cbd6;
 
     --text-about-title-color: #F6F1ED;
     --text-price-color-line-through: #C5CBD6;
