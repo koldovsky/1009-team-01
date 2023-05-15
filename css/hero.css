@@ -16,6 +16,7 @@
 
 .hero__subtitle {
     font-size: var(--hero-mobile-font-size-subtitle-text);
+    line-height: 59.4px;
     margin: 18px 0;
 }
 
