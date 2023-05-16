@@ -6,7 +6,8 @@
     --font-text: Inter, sans-serif;
 
     --font-size-main-menu-text: 12px;
-    --font-size-official-info-text: 14px; /* phone number, email*/
+    --font-size-official-info-text: 14px;
+    /* phone number, email*/
     --font-size-decorative-text: 31px;
     --font-size-section-title-text: 46px;
     --font-size-subtitle-text: 18px;
@@ -16,7 +17,7 @@
     --font-size-about-title: 34px;
     --font-size-about-section-title: 28px;
     --font-size-under-icon-text: 22px;
-    
+
     --background-main-color: #F7F1EC;
 
     --text-decorative-color: #B7BEC6;

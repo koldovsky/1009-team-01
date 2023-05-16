@@ -132,12 +132,14 @@
 	.gallery-info {
 		flex-direction: row;
 	}
+
 	.gallery__wrapper {
 		display: grid;
 		grid-template-columns: 1fr;
 		grid-auto-rows: 220px;
 		gap: 15px;
 	}
+
 	.gallery-info__contacts {
 		display: flex;
 		align-items: center;

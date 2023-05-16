@@ -80,7 +80,7 @@
     height: 50px;
 }
 
-@media (min-width: 576px){
+@media (min-width: 576px) {
     .new-bouquets__event {
         width: 50%;
     }
@@ -103,5 +103,3 @@
         width: 20%;
     }
 }
-
-

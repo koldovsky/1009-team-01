@@ -3,6 +3,7 @@
     color: var(--text-name-item-color);
     background-size: cover;
 }
+
 .carousel-control-prev-icon {
     background: url(../images/arrow-left-circle-fill.svg);
     color: var(--text-name-item-color);
