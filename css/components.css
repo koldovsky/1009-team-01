@@ -80,6 +80,15 @@ h4 {
     background-color: var(--text-decorative-color);
 }
 
+.divider__wide {
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-width: 150px;
+    height: 1px;
+    background-color: var(--text-devider-color);
+}
+
 .btn {
     text-decoration: none;
     border-radius: 0;
