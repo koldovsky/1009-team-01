@@ -38,7 +38,7 @@
 .top__banner-title {
     font-family: var(--font-main-accent-text);
     font-size: var(--font-size-about-title);
-    color: var(--text-about-title-colo);
+    color: var(--text-about-title-color);
 }
 
 .top__banner-home {

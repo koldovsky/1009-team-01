@@ -1,7 +1,13 @@
 .our-services {
-    max-width: 312px;
     text-align: center;
     margin: auto;
+}
+
+.our-services__decoration-img,
+.our-services__events-img,
+.our-services__floral-design-img {
+    height: auto;
+    object-fit: cover;
 }
 
 .our-services__description {
