@@ -94,6 +94,7 @@ ul {
 .catalog-item__prices {
 	display: flex;
 	align-items: center;
+	margin-bottom: 20px;
 }
 
 .catalog-item__price {
