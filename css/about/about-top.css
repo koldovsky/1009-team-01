@@ -26,7 +26,7 @@
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
-    
+
 }
 
 .top__banner-blocks {
@@ -43,13 +43,13 @@
 
 .top__banner-home {
     font-family: var(--font-text);
-    font-size:var(--font-size-text);
+    font-size: var(--font-size-text);
     color: var(--text-main-accent-color);
 }
 
 .top__banner-about {
     font-family: var(--font-text);
-    font-size:var(--font-size-text);
+    font-size: var(--font-size-text);
     font-weight: bold;
     color: var(--text-name-item-color);
 }
@@ -73,13 +73,13 @@
 
 .top__description-title {
     font-family: var(--font-main-accent-text);
-    font-size:var(--font-size-about-section-title);
+    font-size: var(--font-size-about-section-title);
     color: var(--text-main-accent-color);
 }
 
 .top__description-text {
     font-family: var(--font-text);
-    font-size:var(--font-size-text);
+    font-size: var(--font-size-text);
     color: var(--text-color);
 }
 
