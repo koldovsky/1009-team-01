@@ -9,6 +9,7 @@ ul {
 .catalog__title {
 	display: block;
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 .catalog__subtitle {
@@ -110,25 +111,6 @@ ul {
 	line-height: 26.6px;
 	text-decoration: line-through;
 	color: #c5cbd6;
-}
-
-
-.catalog-item__btn {
-	font-size: var(--btn-font-size-text);
-	border: 2px solid var(--text-main-accent-color);
-	background-color: inherit;
-	font-weight: 700;
-	letter-spacing: 1.1px;
-	text-transform: uppercase;
-	margin-top: 24px;
-	padding: 15px 26px;
-	cursor: pointer;
-	transition: 0.3s ease-in-out;
-}
-
-.catalog-item__btn:hover {
-	color: var(--btn-primary-hover-text-color);
-	background-color: var(--btn-primary-text-color);
 }
 
 @media (min-width: 576px) {
