@@ -9,6 +9,7 @@ ul {
 .catalog__title{
 	display: block;
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 .catalog__subtitle{
