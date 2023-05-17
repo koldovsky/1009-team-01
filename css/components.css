@@ -80,8 +80,7 @@ h4 {
     background-color: var(--text-decorative-color);
 }
 
-<<<<<<< HEAD
-=======
+
 .divider__wide {
     margin: 0 auto;
     margin-top: 15px;
@@ -122,4 +121,3 @@ h4 {
 .btn--secondary:hover {
     background-color: var(--btn-secondary-hover-background-color)
 }
->>>>>>> 26183ac1c673e334e5149a067c40594fe2da52e5
