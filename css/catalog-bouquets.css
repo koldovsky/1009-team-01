@@ -31,14 +31,7 @@
 	transition: 0.3s ease-in-out;
 }
 
-.catalog-bouquets__add-to-cart:hover {
-	color: var(--btn-primary-hover-text-color);
-	background-color: var(--btn-primary-text-color);
-}
-
-
-
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
 	.carousel-inner {
 		display: flex;
 	}
