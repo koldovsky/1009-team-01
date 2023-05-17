@@ -69,7 +69,8 @@
 }
 
 .proposal__image-box {
-    flex: 1 0 70px;
+    flex: 0 0 70px;
+    height: 70px;
 }
 
 .proposal__image {
@@ -136,6 +137,12 @@
     .proposal {
         align-items: center;
     }
+
+    .proposal__image-box {
+        flex: 0 0 85px;
+        margin: 7.5px;
+    }
+
 }
 
 @media (min-width: 992px) {
