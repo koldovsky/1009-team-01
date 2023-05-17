@@ -1,5 +1,10 @@
 .long-divider {
-    width: 260px;
+    height: 2px;
+    margin: 15px 0;
+    background-color: var(--text-decorative-color);
+}
+
+.mid-divider {
     height: 2px;
     margin: 15px 0;
     background-color: var(--text-decorative-color);
@@ -46,7 +51,7 @@
     color: var(--text-main-accent-color);
 }
 
-.top__info-text {
+.top__article-text {
     font-family: var(--font-text);
     font-size: var(--font-size-text);
     color: var(--text-color);
@@ -74,6 +79,43 @@
     font-family: var(--font-text);
     font-size: var(--font-size-text);
     color: var(--text-main-accent-color);
+}
+
+.top__history-italic {
+    font-family: var(--font-decorative-text);
+    font-size: var(--font-size-decorative-text);
+    color: var(--text-decorative-color);
+}
+
+.top__history-bold {
+    font-family: var(--font-main-accent-text);
+    font-size: var(--font-size-about-title);
+    color: var(--text-main-accent-color);
+}
+
+.top__history-text {
+    font-family: var(--font-text);
+    font-size: var(--font-size-text);
+    color: var(--text-subtitle-color);
+    font-weight: bold;
+}
+
+.top__history-story-title {
+    font-family: var(--font-main-accent-text);
+    font-size: var(--font-size-features-title-text);
+    color: var(--text-name-item-color);
+}
+
+.top__history-story-regular {
+    font-family: var(--font-text);
+    font-size: var(--font-size-official-info-text);
+    color: var(--text-color);
+}
+
+.top__history-story-italic {
+    font-family: var(--font-text);
+    font-size: var(--font-size-official-info-text);
+    color: var(--text-color);
 }
 
 .top__video-src {
