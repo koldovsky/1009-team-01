@@ -1,0 +1,11 @@
+.carousel-control-next-icon {
+    background: url(../images/catalog-bouquets/arrow-right-circle-fill.svg);
+    color: var(--text-name-item-color);
+    background-size: cover;
+}
+
+.carousel-control-prev-icon {
+    background: url(../images/catalog-bouquets/arrow-left-circle-fill.svg);
+    color: var(--text-name-item-color);
+    background-size: cover;
+}
