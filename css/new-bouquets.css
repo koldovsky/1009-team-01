@@ -1,3 +1,30 @@
+#topBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 35px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 4px;
+	background: none;
+	transition: 0.4s ease-in-out;
+	transform: rotate(0deg);
+}
+
+.go-to-top-btn {
+	width: 30px;
+	height: 30px;
+	color: var(--text-main-accent-color);
+}
+#topBtn:hover {
+	transform: rotate(360deg);
+	transition: 0.4s ease-in-out;
+}
+
 .container-composition-text {
 	background-image: url("../images/composition-card-background.png");
 	background-size: cover;
