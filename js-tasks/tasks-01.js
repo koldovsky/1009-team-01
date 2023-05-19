@@ -26,15 +26,24 @@ const move = (position, roll) => {
 // Personalized Message   https://www.codewars.com/kata/grasshopper-personalized-message/train/javascript
 //
 
-
+const greet = (name, owner) => {
+    const greeting = (name == owner) ? 'Hello boss' : 'Hello guest';
+    return greeting;
+}
 
 
 // ---------- 5 ------------
 // Keep Hydrated          https://www.codewars.com/kata/keep-hydrated-1/train/javascript
 //
 
-
+const litres = (time) => {
+    const waterUsage = 0.5;
+    const waterTaken = Math.floor(time * waterUsage);
+    return waterTaken;
+}
 
 // ---------- 6 ------------
 // Opposites Attract      https://www.codewars.com/kata/555086d53eac039a2a000083/train/javascript
 //
+
+const lovefunc = (flower1, flower2) => !!((flower1 + flower2) % 2);
