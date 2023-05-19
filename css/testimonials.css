@@ -43,18 +43,15 @@
     color: var(--text-accent-color);
     font-size: 20px;
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 20px;
+    padding-bottom: 30px;
     font-style: italic;
 }
 
-/*
-TODO:
-this block in css catalog-bouquets chenges quantity on wide screen
-.carousel-item {
-    margin-right: 0;
-    display: block;
+@media (min-width: 770px) {
+    .testimonials__carousel-caption p {
+        width: 50%;
+    }
 }
-plus - need to change <p> width at min 780 to lower
-*/
