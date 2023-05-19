@@ -52,7 +52,7 @@
 
 
 @media (min-width: 576px) {
-    .container {
+    .container-features {
         max-width: 564px;
     }
 
@@ -76,7 +76,7 @@
 }
 
 @media (min-width: 768px) {
-    .container {
+    .container-features {
         max-width: 750px;
     }
 
@@ -110,7 +110,7 @@
 
 
 @media (min-width: 992px) {
-    .container {
+    .container-features {
         max-width: 972px;
     }
 
@@ -133,7 +133,7 @@
 }
 
 @media (min-width: 1200px) {
-    .container {
+    .container-features {
         max-width: 1170px;
     }
 }
