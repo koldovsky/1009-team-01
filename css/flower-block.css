@@ -5,19 +5,19 @@
     gap: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 0px;
 }
 
 .flower-block__img {
     object-fit: cover;
-    /* width: 149px; */
     height: auto;
-
 }
 
 @media (min-width: 480px) {
     .flower-block__content {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        gap: 30px;
     }
 }
 

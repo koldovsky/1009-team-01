@@ -1,44 +1,35 @@
-/* .container {
-    max-width: 270px;
-    justify-content: center;
-} */
-
 .long-divider {
-    width: 260px;
+    height: 2px;
+    margin: 15px 0;
+    background-color: var(--text-decorative-color);
+}
+
+.mid-divider {
     height: 2px;
     margin: 15px 0;
     background-color: var(--text-decorative-color);
 }
 
 .top__banner-container {
-    padding-top: 30px;
     padding-bottom: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    text-align: center;
-}
-
-.top__banner {
-    height: 226px;
-    width: 316px;
+    padding-top: 30px;
     background-image: url("../../images/about/top/about-background.png");
     background-repeat: no-repeat;
-    background-position: center right;
+    background-position: center;
     background-size: cover;
-
+    overflow: hidden;
+    max-height: 200px;
 }
 
-.top__banner-blocks {
-    width: 270px;
-    height: 226px;
-    padding: 80px 30px;
+.top__banner-titles {
+    min-height: 190px;
 }
 
-.top__banner-title {
+.top__banner-name {
     font-family: var(--font-main-accent-text);
     font-size: var(--font-size-about-title);
     color: var(--text-about-title-color);
+    margin-bottom: 0;
 }
 
 .top__banner-home {
@@ -54,61 +45,103 @@
     color: var(--text-name-item-color);
 }
 
-.top__description {
-    padding-top: 30px;
-    padding-bottom: 60px;
-}
-
-.top__description-box {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.top__description-image {
-    max-width: 272px;
-    min-height: 300px;
-    padding: 0px 40px 0 40px;
-}
-
-.top__description-title {
+.top__info-title {
     font-family: var(--font-main-accent-text);
     font-size: var(--font-size-about-section-title);
     color: var(--text-main-accent-color);
 }
 
-.top__description-text {
+.top__article-text {
     font-family: var(--font-text);
     font-size: var(--font-size-text);
     color: var(--text-color);
 }
 
-.top__description-button {
-    display: inline-block;
-    position: relative;
-    margin-top: 35px;
-    min-height: 45px;
-    width: 160px;
-}
-
-.top__partners {
+.top__info-link {
+    color: var(--new-bouquets-text-color-compositions);
+    padding: 15px 25px;
+    font-size: 11px;
+    cursor: pointer;
     text-align: center;
+    text-decoration: none;
+    background-color: var(--btn-secondary-background-color);
+    border: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 50px;
 }
 
-.top__partners-elements {
-    padding: 30px 0 30px 0;
+.top__info-link:hover {
+    background-color: var(--btn-secondary-hover-background-color)
 }
 
-.top__partners-slide {
-    width: 200px;
-    max-height: 100px;
+.top__partners-text {
+    font-family: var(--font-text);
+    font-size: var(--font-size-text);
+    color: var(--text-main-accent-color);
 }
 
-.top__partners-slide--image {
-    height: 100px;
+.top__history-italic {
+    font-family: var(--font-decorative-text);
+    font-size: var(--font-size-decorative-text);
+    color: var(--text-decorative-color);
 }
 
-.top__photo {
-    max-width: 272px;
-    max-height: 300px;
+.top__history-bold {
+    font-family: var(--font-main-accent-text);
+    font-size: var(--font-size-about-title);
+    color: var(--text-main-accent-color);
+}
+
+.top__history-text {
+    font-family: var(--font-text);
+    font-size: var(--font-size-text);
+    color: var(--text-subtitle-color);
+    font-weight: bold;
+}
+
+.top__history-story-title {
+    font-family: var(--font-main-accent-text);
+    font-size: var(--font-size-features-title-text);
+    color: var(--text-name-item-color);
+}
+
+.top__history-story-regular {
+    font-family: var(--font-text);
+    font-size: var(--font-size-official-info-text);
+    color: var(--text-color);
+}
+
+.top__history-story-italic {
+    font-family: var(--font-text);
+    font-size: var(--font-size-official-info-text);
+    color: var(--text-color);
+}
+
+.top__video-src {
+    max-height: 400px;
+}
+
+@media (min-width: 576px) {
+    .top__video-src {
+        min-height: 320px;
+    }
+}
+
+@media (min-width: 767px) {
+    .top__video-src {
+        min-height: 375px;
+    }
+}
+
+@media (min-width: 990px) {
+    .top__video-src {
+        min-height: 440px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .top__video-src {
+        min-height: 560px;
+    }
 }
