@@ -143,21 +143,12 @@ ul {
 @media (min-width: 992px) {
 	.catalog__content {
 		flex-direction: row;
-		flex-wrap: nowrap;
+		flex-wrap: wrap;
 		justify-content: center;
 		gap: 0px;
 	}
 
 	.catalog-item__wrapper:last-child {
 		margin-top: 40px;
-	}
-}
-
-@media (max-width: 1200px){
-	.catalog__content {
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: 0px;
 	}
 }
