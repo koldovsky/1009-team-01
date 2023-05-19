@@ -110,7 +110,7 @@ h4 {
 
 .btn--secondary {
     color: var(--btn-secondary-text-color);
-    background-color: var(--btn-secondary-background-color);
+    background-color: var(--btn-secondary-hover-background-color);
 }
 
 .btn--primary:hover {
@@ -119,5 +119,6 @@ h4 {
 }
 
 .btn--secondary:hover {
-    background-color: var(--btn-secondary-hover-background-color)
+    color: var(--btn-secondary-text-color);
+    background-color: var(--btn-secondary-background-color);
 }
