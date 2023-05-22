@@ -72,3 +72,56 @@ function firstNonConsecutive(arr) {
       }) ?? null
     );
  }
+
+//ADDITIONAL TASKS
+// 14
+// You Can't Code Under Pressure #1
+// https://www.codewars.com/kata/53ee5429ba190077850011d4/train/javascript
+const doubleInteger = (i) => i * 2;
+
+// 15
+// Century From Year
+// https://www.codewars.com/kata/5a3fe3dde1ce0e8ed6000097
+const century = (year) => Math.ceil(year / 100);
+
+// 16
+// Function 3 - multiplying two numbers (retired)
+// https://www.codewars.com/kata/523b66342d0c301ae400003b/train/javascript
+const multiply = (operand1, operand2) => operand1 * operand2;
+
+// 17
+// Beginner Series #4 Cockroach
+// https://www.codewars.com/kata/55fab1ffda3e2e44f00000c6/train/javascript
+const cockroachSpeed = (s) => Math.floor((s * 100000) / (60 * 60));
+
+// 18
+// Third Angle of a Triangle
+// https://www.codewars.com/kata/5a023c426975981341000014/train/javascript
+const otherAngle = (firstAngleOfTriangle, secondAngleOfTriangle) =>
+  180 - firstAngleOfTriangle - secondAngleOfTriangle;
+
+// 19
+// Twice as old
+// https://www.codewars.com/kata/5b853229cfde412a470000d0/train/javascript
+const twiceAsOld = (dadYearsOld, sonYearsOld) =>
+  Math.abs(dadYearsOld - 2 * sonYearsOld);
+
+// 20
+// Get Nth Even Number
+// https://www.codewars.com/kata/5933a1f8552bc2750a0000ed/train/javascript
+const nthEven = (n) => n * 2 - 2;
+
+// 21
+// What's the real floor
+// https://www.codewars.com/kata/574b3b1599d8f897470018f6/train/javascript
+const getRealFloor = (n) => (n >= 1 ? (n >= 13 ? n - 2 : n - 1) : n);
+
+// 22
+// Beginner Series #2 Clock
+// https://www.codewars.com/kata/55f9bca8ecaa9eac7100004a/train/javascript
+const past = (h, m, s) => (h * 60 * 60 + m * 60 + s) * 1000;
+
+// 23
+// Is n divisible by x and y?
+// https://www.codewars.com/kata/5545f109004975ea66000086/train/javascript
+const isDivisible = (n, x, y) => !(n % x || n % y);
