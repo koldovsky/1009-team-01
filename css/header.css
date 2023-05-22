@@ -64,7 +64,7 @@
     text-decoration: underline;
 }
 
-@media (min-width: 990px) {
+@media (min-width: 992px) {
     .header__burger-menu {
         display: none;
     }
