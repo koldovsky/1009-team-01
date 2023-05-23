@@ -21,7 +21,13 @@
 }
 
 .hero__text {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.hero__action {
+    width: 147px;
+    height: 49px;
+    padding: 14px 0;
 }
 
 @media (min-width: 576px) {
