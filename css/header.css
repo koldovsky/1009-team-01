@@ -64,6 +64,7 @@
         transition: top 0.3s ease-in;
         padding: 15px 24px 50px 24px;
         overflow: hidden;
+        padding-top: 100px;
     }
 
     .header__navigation-wrapper.active {
@@ -72,10 +73,6 @@
 }
 
 @media (min-width: 992px) {
-    .header__navigation-wrapper {
-        margin-top: 0px !important;
-    }
-
     .header__navigation-links {
         flex-direction: row;
     }
