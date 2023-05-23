@@ -9,7 +9,6 @@
 
     --font-size-main-menu-text: 12px;
     --font-size-official-info-text: 14px;
-    /* phone number, email*/
     --font-size-decorative-text: 31px;
     --font-size-section-title-text: 46px;
     --font-size-subtitle-text: 18px;
@@ -32,7 +31,7 @@
     --text-about-title-color: #f6f1ed;
     --text-price-color-line-through: #c5cbd6;
 
-    --text-devider-color: #d8d8d8;
+    --text-divider-color: #d8d8d8;
 
     --btn-primary-text-color: #7C7669;
     --btn-primary-hover-text-color: #FFFFFF;
@@ -46,6 +45,9 @@
 
     --header-font-size-burger-menu-text: 16px;
     --header-text-color-call-us: #6F6C4EBF;
+    --header-font-weight-hamburger-menu-text: 400px;
+    --header-letter-spacing-hamburger-menu: 1.6px;
+    --header-letter-spacing-main-menu: 1.2px;
     --hero-mobile-font-size-decorative-text: 24px;
     --hero-mobile-font-size-subtitle-text: 54px;
     --hero-tablet-font-size-subtitle-text: 58px;
