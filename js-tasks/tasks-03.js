@@ -6,6 +6,12 @@ class SmallestIntegerFinder {
         return args.reduce((min, el) => el < min ? el : min);
     }
 }
+// another solution:
+class SmallestIntegerFinder {
+    findSmallestInt(args) {
+        return Math.min(...args);
+    }
+}
 
 
 
