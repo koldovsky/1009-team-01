@@ -60,7 +60,7 @@ h4 {
     color: var(--text-color);
     font-weight: 400;
     line-height: 27px;
-    
+
 
 }
 
@@ -78,6 +78,16 @@ h4 {
     width: 60px;
     height: 2px;
     background-color: var(--text-decorative-color);
+}
+
+
+.divider__wide {
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-width: 150px;
+    height: 1px;
+    background-color: var(--text-divider-color);
 }
 
 .btn {
@@ -100,7 +110,7 @@ h4 {
 
 .btn--secondary {
     color: var(--btn-secondary-text-color);
-    background-color: var(--btn-secondary-background-color);
+    background-color: var(--btn-secondary-hover-background-color);
 }
 
 .btn--primary:hover {
@@ -108,6 +118,7 @@ h4 {
     background-color: var(--btn-primary-hover-background-color);
 }
 
-.btn--secondary:hover{
-    background-color: var(--btn-secondary-hover-background-color)
+.btn--secondary:hover {
+    color: var(--btn-secondary-text-color);
+    background-color: var(--btn-secondary-background-color);
 }

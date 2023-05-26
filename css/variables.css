@@ -5,8 +5,10 @@
     --font-main-accent-text: "Frank Ruhl Libre", serif;
     --font-text: Inter, sans-serif;
 
+    --compositions-text-color: #F6F1ED;
+
     --font-size-main-menu-text: 12px;
-    --font-size-official-info-text: 14px; /* phone number, email*/
+    --font-size-official-info-text: 14px;
     --font-size-decorative-text: 31px;
     --font-size-section-title-text: 46px;
     --font-size-subtitle-text: 18px;
@@ -16,18 +18,20 @@
     --font-size-about-title: 34px;
     --font-size-about-section-title: 28px;
     --font-size-under-icon-text: 22px;
-    
+
     --background-main-color: #F7F1EC;
 
     --text-decorative-color: #B7BEC6;
     --text-main-accent-color: #7C7669;
     --text-subtitle-color: #918C74;
     --text-color: #A39F96;
+    --text-accent-color: #7c7669;
     --text-name-item-color: #6F6C4E;
     --text-price-color: #C0BFA8;
+    --text-about-title-color: #f6f1ed;
+    --text-price-color-line-through: #c5cbd6;
 
-    --text-about-title-color: #F6F1ED;
-    --text-price-color-line-through: #C5CBD6;
+    --text-divider-color: #d8d8d8;
 
     --btn-primary-text-color: #7C7669;
     --btn-primary-hover-text-color: #FFFFFF;
@@ -41,6 +45,9 @@
 
     --header-font-size-burger-menu-text: 16px;
     --header-text-color-call-us: #6F6C4EBF;
+    --header-font-weight-hamburger-menu-text: 400px;
+    --header-letter-spacing-hamburger-menu: 1.6px;
+    --header-letter-spacing-main-menu: 1.2px;
     --hero-mobile-font-size-decorative-text: 24px;
     --hero-mobile-font-size-subtitle-text: 54px;
     --hero-tablet-font-size-subtitle-text: 58px;
@@ -49,4 +56,7 @@
     --hero-btn-action-font-size-text: 12px;
 
     --new-bouquets-text-color-compositions: #F6F1ED;
+
+    --socialmedia-icon-color: rgb(111, 108, 78);
+    --socialmedia-icon-hover-color: #c0bfa8;
 }
