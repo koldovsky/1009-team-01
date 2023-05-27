@@ -46,6 +46,20 @@
     align-items: center;
 }
 
+.create-bouquets__box-special-collections {
+    display: flex;
+    align-items: center; 
+}
+
+.create-bouquets__special-collection-img {
+    order: 1;
+}
+
+.create-bouquets__special-collections {
+    order: 2; 
+}
+
+
 .create-bouquets__specialFlowerCollections {
     font-family: var(--font-main-accent-text);
     color: var(--text-main-accent-color);
@@ -55,7 +69,8 @@
 }
 
 .create-bouquets__img-circle {
-    width: 70px;
+    width: 100%;
+    margin-left: 0%;
     height: auto;
     order: 4;
     flex: 0 0 100px;
@@ -65,3 +80,15 @@
 .create-bouquets__img-oval-girl {
     width: 90%;
 }
+
+.create-bouquets__special-collections-flowers a {
+    color: var(--text-subtitle-color);
+    text-decoration: none;
+}
+
+.create-bouquets__special-collections-flowers a:hover {
+    text-decoration: underline;
+}
+
+
+
