@@ -46,16 +46,10 @@
 }
 
 #carousel-btn-icon-next{
-	background: url(../images/catalog-bouquets/arrow-right-circle-fill.svg);
-    color: var(--text-name-item-color);
     background-size: cover;
 	height: 32px;
     width: 32px;
     display: block;
-}
-
-#carousel-btn-icon-next:hover {
-	color: red;
 }
 
 .catalog-bouquets__carousel-wrapper{
