@@ -1,22 +1,17 @@
-window.onload = () => {
-	window.onscroll = function () {
-		scrollFunction();
-	};
+window.addEventListener("load", () => {
+	window.addEventListener("scroll", scrollFunction);
+});
 
-	// Create scroll to up button
-	const topBtn = createGoUpButton();
+// Create scroll to up button
+const topBtn = createGoUpButton();
 
-	function scrollFunction() {
-		if (
-			document.body.scrollTop > 50 ||
-			document.documentElement.scrollTop > 50
-		) {
-			topBtn.style.display = "block";
-		} else {
-			topBtn.style.display = "none";
-		}
+function scrollFunction() {
+	if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+		topBtn.style.display = "block";
+	} else {
+		topBtn.style.display = "none";
 	}
-};
+}
 
 function topFunction() {
 	document.body.scrollTop = 0;
@@ -25,11 +20,11 @@ function topFunction() {
 
 function createGoUpButton() {
 	// Create new elements
-	var button = document.createElement("button");
-	var img = document.createElement("img");
+	const button = document.createElement("button");
+	const img = document.createElement("img");
 
 	// Set the attributes for the button
-    button.onclick = topFunction;
+	button.addEventListener ("click", topFunction);
 	button.setAttribute("id", "topBtn");
 	button.setAttribute("title", "Go to top");
 

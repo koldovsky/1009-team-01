@@ -1,68 +1,36 @@
 <div class="catalog-bouquets">
-  <div class="catalog-bouquets__new-in-shop container d-flex flex-column align-items-center">
-    <h2 class="catalog-bouquets__title title">New in shop</h2>
-    <h3 class="catalog-bouquets__subtitle subtitle text-center">
-      New in Shop Bouquets
-    </h3>
-    <div class="divider divider--center"></div>
-    <p class="catalog-bouquets__select-bouquet text text-center">
-      Select your bouquet and get it delivered in the shortest possible time!
-    </p>
-  </div>
+	<div
+		class="catalog-bouquets__new-in-shop container d-flex flex-column align-items-center"
+	>
+		<h2 class="catalog-bouquets__title title">New in shop</h2>
+		<h3 class="catalog-bouquets__subtitle subtitle text-center">
+			New in Shop Bouquets
+		</h3>
+		<div class="divider divider--center"></div>
+		<p class="catalog-bouquets__select-bouquet text text-center">
+			Select your bouquet and get it delivered in the shortest possible time!
+		</p>
+	</div>
 
-  <div id="bouquets-carousel" class="carousel bouquets-carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="images/catalog-bouquets/amphora-bouquet.png" class="d-block w-100" alt="amphora-bouquet" />
-        <div class="d-flex flex-column align-items-center">
-          <p class="catalog-bouquets__name">Amphora</p>
-          <p class="catalog-bouquets__price">$72,00 USD</p>
-          <button class="catalog-bouquets__add-to-cart btn--primary">Add to cart</button>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="images/catalog-bouquets/daphne-bouquet.png" class="d-block w-100" alt="daphne-bouquet" />
-        <div class="d-flex flex-column align-items-center">
-          <p class="catalog-bouquets__name">Daphne</p>
-          <p class="catalog-bouquets__price">$59,00 USD</p>
-          <button class="catalog-bouquets__add-to-cart btn--primary">Add to cart</button>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="images/catalog-bouquets/fantasy-bouquet.png" class="d-block w-100" alt="fantasy-bouquet" />
-        <div class="d-flex flex-column align-items-center">
-          <p class="catalog-bouquets__name">Fantasy</p>
-          <p class="catalog-bouquets__price">$119,00 USD</p>
-          <button class="catalog-bouquets__add-to-cart btn--primary">Add to cart</button>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="images/catalog-bouquets/autumn-bouquet.png" class="d-block w-100" alt="autumn-bouquet" />
-        <div class="d-flex flex-column align-items-center">
-          <p class="catalog-bouquets__name">Autumn</p>
-          <p class="catalog-bouquets__price">$69,00 USD</p>
-          <button class="catalog-bouquets__add-to-cart btn--primary">Add to cart</button>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="images/catalog-bouquets/josephine-bouquet.png" class="d-block w-100" alt="josephine-bouquet" />
-        <div class="d-flex flex-column align-items-center">
-          <p class="catalog-bouquets__name">Josephine</p>
-          <p class="catalog-bouquets__price">$99,00 USD</p>
-          <button class="catalog-bouquets__add-to-cart btn--primary">Add to cart</button>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#bouquets-carousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon mx-auto" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#bouquets-carousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
+	<div class="catalog-bouquets__carousel container d-flex">
+		<button class="catalog-bouquets__carousel-btn--prev carousel-btn">
+			<img
+				src="../images/catalog-bouquets/arrow-left-circle-fill.svg"
+				alt="Previous button"
+				class="carousel-btn-icon"
+			/>
+		</button>
+		<div class="catalog-bouquets__carousel-wrapper">
+			<div class="catalog-bouquets__carousel-slide"></div>
+		</div>
+		<button class="catalog-bouquets__carousel-btn--next carousel-btn">
+			<!-- <span id="carousel-btn-icon-next"></span> -->
 
-
-
+			<img
+				src="../images/catalog-bouquets/arrow-right-circle-fill.svg"
+				alt="Next button"
+				class="carousel-btn-icon"
+			/>
+		</button>
+	</div>
 </div>
