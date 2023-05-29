@@ -14,7 +14,7 @@
 }
 
 .contacts__promo {
-    background: url("../../images/about/top/about-background.png") 50% 50% / cover no-repeat;
+    background: url("../images/about/top/about-background.png") 50% 50% / cover no-repeat;
     height: 280px;
     width: 100%;
     text-align: center;
@@ -82,11 +82,11 @@
 }
 
 .rules_faq-item {
-    border-bottom: solid 1px var(--text-devider-color);
+    border-bottom: solid 1px var(--text-decorative-color);
 }
 
 .sales__wrapper {
-    background: url("../../images/contacts/contacts-background2.png") 50% 50% / cover no-repeat;
+    background: url("../images/contacts/contacts-background2.png") 50% 50% / cover no-repeat;
     height: 480px;
     width: 100%;
     color: var(--text-about-title-color);
