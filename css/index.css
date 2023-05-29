@@ -4,6 +4,7 @@
 
 @import "header.css";
 @import "catalog-bouquets.css";
+@import "catalog-bouquets-carousel.css";
 @import "header-hamburger-menu.css";
 @import "hero.css";
 @import "new-bouquets.css";
@@ -14,6 +15,7 @@
 @import "about-us.css";
 @import "about/about-top.css";
 @import "about/about-bottom.css";
+@import "contacts.css";
 @import "bootsrtap-overrides.css";
 @import "our-services.css";
 @import "create-bouquets.css";

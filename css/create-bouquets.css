@@ -69,7 +69,7 @@
 }
 
 .create-bouquets__img-circle {
-    width: 100%;
+    width: 80%;
     margin-left: 0%;
     height: auto;
     order: 4;
@@ -78,17 +78,25 @@
 }
 
 .create-bouquets__img-oval-girl {
-    width: 90%;
+    width: 80%;
 }
 
 .create-bouquets__special-collections-flowers a {
-    color: var(--text-subtitle-color);
+    color: var(--text-main-accent-color);
     text-decoration: none;
+    font-family: var(--font-main-accent-text);
+    font-size: 23px;
 }
 
 .create-bouquets__special-collections-flowers a:hover {
     text-decoration: underline;
 }
+
+.create-bouquets__img-oval{
+    margin-top: 40px;
+}
+
+
 
 
 
