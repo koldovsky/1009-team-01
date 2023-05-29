@@ -55,6 +55,8 @@
     position: relative;
     bottom: -22px;
     cursor: pointer;
+    margin-bottom: 40px;
+    margin-top: 20px;
 }
 
 .our-services__decoration .toggle-icon-decoration,
