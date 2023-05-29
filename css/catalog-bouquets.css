@@ -31,13 +31,57 @@
 	transition: 0.3s ease-in-out;
 }
 
-@media screen and (min-width: 768px) {
-	.bouquets-carousel .carousel-inner {
+.carousel-btn {
+	border: none;
+	background-color: transparent;
+	outline: none;
+	background: none;
+}
+
+
+.carousel-btn-icon{
+	width: 32px;
+	height: 32px;
+	
+}
+
+#carousel-btn-icon-next{
+    background-size: cover;
+	height: 32px;
+    width: 32px;
+    display: block;
+}
+
+.catalog-bouquets__carousel-wrapper{
+	overflow: hidden;
+}
+
+.carousel-bouquet-item {
+	min-width: 100%;
+}
+
+.catalog-bouquets__carousel-slide {
+	transition: transform 0.5s ease-out;
+	display: flex;
+}
+
+@media (min-width: 768px) {
+	.catalog-bouquets__carousel-slide {
 		display: flex;
 	}
+	
+	.carousel-bouquet-item {
+		min-width: 50%;
+	}
 
-	.bouquets-carousel .carousel-item {
+	/* .catalog-bouquets__carousel-slide .carousel-item {
 		margin-right: 0;
 		display: block;
+	} */
+}
+
+@media (min-width: 1024px) {
+	.carousel-bouquet-item {
+		min-width: 20%;
 	}
 }
