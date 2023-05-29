@@ -34,3 +34,24 @@ const changeFeaturesListItemsOrder = function() {
 }
 
 setInterval(changeFeaturesListItemsOrder,  1000);
+
+window.addEventListener('resize', function() {
+	const featureTitles = document.querySelectorAll('.feature__title');
+	const theHighestFeatureTitle = Array.from(featureTitles).map(
+		featureTitle => parseFloat(featureTitle.offsetHeight)).reduce(
+		(maxFeatureTitleHeight, featureTitleHeight) =>
+			featureTitleHeight > maxFeatureTitleHeight ? featureTitleHeight : maxFeatureTitleHeight
+	);
+	
+	for (const featureTitle of featureTitles) {
+		featureTitle.style.height = theHighestFeatureTitle + 'px';
+	}
+	
+	if (window.innerWidth > 992 && window.innerWidth < 1069) {
+		Array.from(document.querySelectorAll('.feature__divider')).forEach(
+			featureDivider => featureDivider.style.marginTop = '30px');
+	} else {
+		Array.from(document.querySelectorAll('.feature__divider')).forEach(
+			featureDivider => featureDivider.style.marginTop = '15px');
+	}
+})
