@@ -21,16 +21,22 @@
 }
 
 .hero__text {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
-@media (min-width: 500px) {
+.hero__action {
+    width: 147px;
+    height: 49px;
+    padding: 14px 0;
+}
+
+@media (min-width: 576px) {
     .hero {
         background-image: url("../images/hero-backgrounds/hero-background.png");
     }
 }
 
-@media (min-width: 770px) {
+@media (min-width: 768px) {
     .hero__content {
         padding-top: 175px;
         padding-bottom: 175px;
@@ -42,7 +48,7 @@
     }
 }
 
-@media (min-width: 990px) {
+@media (min-width: 992px) {
     .hero__content {
         padding-top: 240px;
         padding-bottom: 240px;

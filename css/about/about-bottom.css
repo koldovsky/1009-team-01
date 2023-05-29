@@ -1,0 +1,599 @@
+.master-classes-section {
+    padding: 60px 0;
+}
+.master-classes-container {
+    max-width: 1200px;
+    padding: 0 24px;
+    margin: auto;
+}
+.master-classes-wrapper{
+    display: flex;
+}
+.master-classes-info{
+    padding: 0 30px;
+    max-width: 555px;
+}
+.master-classes-title{
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 31px;
+    color: #B7BEC6;
+}
+.master-classes-registration {
+    font-family: "Frank Ruhl Libre", sans-serif;
+    font-size: 46px;
+    color: #7C7669;
+    box-sizing: border-box;
+}
+.master-classes-text-accent{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #918C74;
+    font-weight: bold;
+}
+.master-classes-text{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #A39F96;
+}
+.master-classes-list{
+
+}
+.master-classes-item{
+    display: flex;
+    max-width: 470px;
+}
+
+.master-classes-image {
+    display: flex;
+    margin: 7.5px;
+    max-width: 100%;
+    text-align: center;
+}
+.master-classes-price-wrapp{
+    margin: 7.5px;
+    text-align: left;
+    min-width: 40%;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+.master-classes-price{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+.master-classes-price-title{
+    font-family: "Frank Ruhl Libre", sans-serif;
+    font-size: 24px;
+    color: #6F6C4E;
+    margin: 0;
+}
+.master-classes-price-info{
+    font-family: "Frank Ruhl Libre", sans-serif;
+    font-size: 24px;
+    color: #6F6C4E;
+    margin: 0;
+}
+.master-classes-price-text{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #A39F96;
+    margin-bottom: 0px;
+}
+.sign-up-link {
+    color: #F6F1ED;
+    padding: 15px 25px;
+    font-size: 11px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    background-color: #7C7669;
+    border: none;
+    font-weight: 104;
+    letter-spacing: 1px;
+    margin-top: 50px;
+}
+.flovers-shop-img{
+    /* width: 555px;
+    height: 644px; */
+    object-position: 50%;
+}
+.our-team-title-wrapper{
+    text-align: center;
+}
+.our-team-boxes-wrapper{
+    
+}
+.our-team-box{
+
+}
+.name-style{
+    font-size:14px;
+    line-height: 1.5;
+    font-family: "Inter",sans-serif;
+    font-weight: 500;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    color:#f6f1ed;
+}
+.position{
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: "Inter",sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing:0;
+    color: #6f6c4e;
+    text-transform: none;
+}
+.description-text{
+    font-size: 16px;
+    line-height: 1.6;
+    font-family:  "Inter",sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #6f6c4e;
+    text-transform: none;
+}
+
+.description-text-white{
+    font-size: 16px;
+    line-height: 1.6;
+    font-family:  "Inter",sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: rgba(255,255,255,0.61);
+    text-transform: none;
+}
+.cv-link-white{
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 31px;
+    color:  rgba(255,255,255,0.61);
+}
+
+/* --Christian Dior quote-- */
+.bottom-wrpper-quote {
+    max-width: 1200px;
+    padding: 0 24px;
+    margin: auto;
+}
+
+
+.divider-quote {
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-width: 150px;
+    height: 1px;
+    background-color: #d8d8d8;
+}
+
+.quote-inner-box::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+    opacity: .2;
+}
+/* .quotes{
+    display: flex;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    z-index:  100;
+    left: 50%;
+    margin-left: 0px
+} */
+.quote-text-brown{
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 31px;
+    color:  rgb(152,147,138);
+    text-align: center;
+}
+
+.underline {
+    margin-top: 20px;
+    background: #6f6c4e;
+    width: 100%;
+    height: 1px;
+    min-width: 10px;
+    margin: 7px 0;
+    flex: 1 1;
+    background: #B7BEC6;;
+    opacity: .2;
+}
+
+.flovers-shop-img-wrapp {
+    display: flex;
+    flex-basis: 50%;
+    max-width: 50%;
+    margin-top: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: flex-start;
+    flex-basis: 100%;
+}
+
+.flovers-shop-img {
+    object-fit: contain;
+    /* object-position: 78.448% 50%; */
+}
+
+
+/* /Quote/ */
+.quote-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.quote-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+.quote-content {
+    display: flex;
+    justify-content: center;
+}
+
+.quote-inner {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    width: calc(100% + 30px);
+    margin-left: calc(30px/-2);
+    margin-right: calc(30px/-2);
+}
+
+.quote-inner-box {
+    padding-left: calc(30px/2);
+    padding-right: calc(30px/2);
+
+    /* display: flex; */
+    flex-basis: 100%;
+    /* width: 0; */
+}
+
+.quote-inner-item {
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.quote-content-wrapper {
+    position: relative;
+}
+
+.quote-content-wrapper::before {
+    background-color: black;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 0;
+    left: 0;
+    opacity: .2;
+}
+.quote-content-wrapper::after {
+    /* background-color: black; */
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 0;
+    right: 0;
+    opacity: .2;
+}
+
+.quote-wrapp {
+    padding-bottom: 50px;
+    margin-bottom: calc(20px + 50px/2);
+    position: relative;
+    padding: 50px calc(20px/2);
+}
+
+/* .quote-wrapp::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+    opacity: .2;
+} */
+
+.quote-text{
+    font-family: "Frank Ruhl Libre", sans-serif;
+    font-weight: 400;
+    color: rgb(152,147,138);
+    font-size: 28px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-style: italic;
+    letter-spacing: calc(0*1em);
+    position: relative;
+    max-width: 100%;
+    word-wrap: break-word;
+    margin-bottom: 0px;
+}
+
+.quote-icon-wrapper {
+    margin-top: 30px;
+    height: 50px;
+    position: absolute;
+    width: 100%;
+    bottom: -1px;
+    left: 0;
+}
+
+.quote-icon-wrapper::before {
+    width: calc(50% - 50px/1.35);
+    background-color: currentColor;
+    left: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    height: 1px;
+    bottom: 0;
+    opacity: .2;
+}
+
+.quote-icon-wrapper::after {
+    width: calc(50% - 50px/1.35);
+    background-color: currentColor;
+    right: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    height: 1px;
+    bottom: 0;
+    opacity: .2;
+}
+
+.quote-icon-container {
+    display: flex;
+    position: relative;
+    bottom: -50%;
+    justify-content: center;
+}
+
+.quote-icon-container-inner {
+    display: flex;
+    justify-content: center;
+}
+
+.quote-icon {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+}
+
+.icon {
+    height: 100%;
+    max-width: 100%;
+    display: block;
+    position: relative;
+    align-items: center;
+}
+
+.quote-author {
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 31px;
+    line-height: 1;
+    font-weight: 400;
+    font-style: normal;
+    color:  #6f6c4e;
+    text-align: center;
+    letter-spacing: calc(0*1em);
+    position: relative;
+    max-width: 100%;
+    word-wrap: break-word;
+
+    padding-left: calc(20px/2);
+    padding-right: calc(20px/2);
+    margin-top: 50px;
+}
+
+/* /Team/ */
+.team-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.team-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.team-title-wrapper {
+    text-align: center;
+}
+
+.team-title {
+    margin-bottom: 0px;
+
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 31px;
+    line-height: 1;
+    font-weight: 400;
+    color: #B7BEC6;
+    letter-spacing: calc(0*1em);
+}
+
+.team-registration {
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+    font-family: "Frank Ruhl Libre", sans-serif;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: calc(0*1em);
+    color: #7C7669;
+}
+
+.team-text-accent {
+    margin-top: 25px;
+    margin-bottom: 0px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: calc(0*1em);
+    color: #918C74;
+    font-weight: 500;
+}
+
+.team-boxes-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-box {
+    padding: 30px 40px;
+    background: rgb(207, 206, 184);
+}
+
+.team-box-inner {
+    padding: 50px 30px 0;
+    display: flex;
+    flex-basis: 33.33333%;
+    max-width: 33.33333%;
+}
+
+.team-box-image {
+    display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.team-box-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.team-box-accent {
+    background: rgb(183, 190, 198);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.team-box-icon-list {
+    margin-bottom: 0px;
+
+    display: flex;
+    list-style: none;
+}
+
+.team-box-icon-list-item {
+    margin-right: 7.5px;
+    margin-left: 7.5px;
+    margin-bottom: 15px;
+}
+
+.team-box-icon-list-item-link {
+    width: 25px;
+    height: 25px;
+
+    opacity: 1;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.team-box-title {
+    margin-bottom: 5px;
+    color: #f6f1ed;
+
+    font-size: 32px;
+    line-height: 1.3;
+    font-family: "Frank Ruhl Libre", sans-serif;
+    font-weight: 400;
+    letter-spacing: calc(0*1em);
+}
+
+.team-box-title-accent {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.team-box-position {
+    margin-bottom: 0px;
+
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: "Inter",sans-serif;
+    font-weight: 500;
+    letter-spacing: calc(0*1em);
+    color: rgb(145,140,116);
+}
+
+.team-box-content {
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: "Inter",sans-serif;
+    font-weight: 400;
+    letter-spacing: calc(0*1em);
+    color: rgba(111,108,78,0.61);
+}
+
+.team-box-content-accent {
+    margin-top: 25px;
+    margin-bottom: 20px;
+
+    text-align: center;
+
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: rgba(255,255,255,0.61);
+}
+
+.team-box-after-title{
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 31px;
+    color:  rgba(255,255,255,0.61);
+
+    margin-bottom: 0px;
+}
