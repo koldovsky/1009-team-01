@@ -1,0 +1,33 @@
+.top__carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.top__carousel-inner {
+    display: flex;
+    transform: translateY(-50%);
+}
+
+.top__carousel .top__carousel-card {
+    flex: 0 0  100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.top__carousel .top__carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.top__carousel .top__carousel-btn--prev {
+    left: 10px;
+}
+
+.top__carousel .top__carousel-btn--next {
+    right: 10px;
+}
