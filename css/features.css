@@ -12,7 +12,7 @@
 .feature {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  text-align: left;
 }
 
 .feature__header {
@@ -116,8 +116,7 @@
   }
 
   .features__list {
-    display: flex;
-    flex-direction: row;
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .features__item {
