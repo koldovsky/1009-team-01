@@ -1,33 +1,35 @@
-.top__carousel {
+.animated-carousel {
     position: relative;
     width: 100%;
     overflow: hidden;
 }
 
-.top__carousel-inner {
+.animated-carousel__inner {
     display: flex;
-    transform: translateY(-50%);
+    transition: transform 0.5s ease-in-out;
 }
 
-.top__carousel .top__carousel-card {
-    flex: 0 0  100%;
+.animated-carousel .carousel-card {
+    flex: 0 0 100%;
     padding: 20px;
     box-sizing: border-box;
 }
 
-.top__carousel .top__carousel-button {
+.animated-carousel .carousel__button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    background: none;
     border: none;
+    font-size: 20px;
     padding: 10px 20px;
     cursor: pointer;
 }
 
-.top__carousel .top__carousel-btn--prev {
+.animated-carousel .carousel__btn--prev {
     left: 10px;
 }
 
-.top__carousel .top__carousel-btn--next {
+.animated-carousel .carousel__btn--next {
     right: 10px;
 }

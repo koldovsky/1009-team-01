@@ -1,23 +1,21 @@
-const carousel = document.querySelector('.top__carousel');
-const carouselInner = carousel.querySelector('.top__carousel-inner');
-const prevButton = carousel.querySelector('.top__carousel-btn--prev');
-const nextButton = carousel.querySelector('.top__carousel-btn--next');
-const carouselCards = carousel.querySelectorAll('.top__carousel-cards');
+const carousel = document.querySelector('.animated-carousel');
+const carouselInner = carousel.querySelector('.animated-carousel__inner');
+const prevButton = carousel.querySelector('.carousel__btn--prev');
+const nextButton = carousel.querySelector('.carousel__btn--next');
+const carouselCard = carousel.querySelectorAll('.carousel-card');
 
-let currentSlide = 0;
+let currentIndex = 0;
 
 const updateSlide = () => {
-    carouselInner.style.transform = `translateX(-${currentSlide * 100}%)`;
+    carouselInner.style.transform = `translateX(-${currentIndex * 100}%)`;
 }
 
 prevButton.addEventListener('click', () => {
-    currentSlide = (currentSlide - 1 + carouselCards.length) % carouselCards.length;
+    currentIndex = (currentIndex - 1 + carouselCard.length) % carouselCard.length;
     updateSlide();
-});
+})
 
 nextButton.addEventListener('click', () => {
-    currentSlide = (currentSlide + 1) % carouselCards.length;
+    currentIndex = (currentIndex + 1) % carouselCard.length;
     updateSlide();
-});
-
-console.log('hui');
+})
