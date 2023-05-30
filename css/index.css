@@ -14,7 +14,9 @@
 @import "features.css";
 @import "about-us.css";
 @import "about/about-top.css";
+@import "about/about-top-carousel.css";
 @import "about/about-bottom.css";
+@import "contacts.css";
 @import "bootsrtap-overrides.css";
 @import "our-services.css";
 @import "create-bouquets.css";

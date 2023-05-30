@@ -1,0 +1,35 @@
+.animated-carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.animated-carousel__inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.animated-carousel .carousel-card {
+    flex: 0 0 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.animated-carousel .carousel__button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.animated-carousel .carousel__btn--prev {
+    left: 10px;
+}
+
+.animated-carousel .carousel__btn--next {
+    right: 10px;
+}

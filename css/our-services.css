@@ -43,51 +43,48 @@
     margin-bottom: 25px;
 }
 
-.our-services__decoration-title {
+.our-services__decoration-title, 
+.our-services__events-title,
+.our-services__floral-design-title{
     font-family: var(--font-main-accent-text);
     color: var(--text-main-accent-color);
     font-size: 22px;
     line-height: 1.3;
     font-weight: 400;
+    text-align: left;
+    position: relative;
+    bottom: -22px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    margin-top: 20px;
 }
 
-.our-services__decoration-content {
-    font-family: var(--font-text);
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(--text-color);
-    margin-bottom: 20px;
-}
-
-.our-services__events-title {
+.our-services__decoration .toggle-icon-decoration,
+.our-services__events .toggle-icon-events,
+.our-services__floral-design .toggle-icon-floral{
     font-family: var(--font-main-accent-text);
     color: var(--text-main-accent-color);
-    font-size: 22px;
-    line-height: 1.3;
-    font-weight: 400;
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 24px;
 }
 
-.our-services__events-content {
-    font-family: var(--font-text);
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(--text-color);
-    margin-bottom: 20px;
-}
-
-.our-services__floral-design-title {
-    font-family: var(--font-main-accent-text);
-    color: var(--text-main-accent-color);
-    font-size: 22px;
-    line-height: 1.3;
-    font-weight: 400;
-}
-
+.our-services__decoration-content,
+.our-services__events-content,
 .our-services__floral-design-content {
     font-family: var(--font-text);
     font-size: 16px;
     line-height: 1.5;
     color: var(--text-color);
+    margin-bottom: 20px;
+    margin-top: 40px;
+    text-align: left;
+    display: none;
+}
+
+.our-services__collection{
     margin-bottom: 20px;
 }
 
