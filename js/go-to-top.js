@@ -21,7 +21,7 @@ function createGoUpButton() {
 	const button = document.createElement("button");
 	const img = document.createElement("img");
 
-	button.addEventListener ("click", topFunction);
+	button.addEventListener("click", topFunction);
 	button.setAttribute("id", "topBtn");
 	button.setAttribute("title", "Go to top");
 

@@ -74,7 +74,6 @@ function renderBouquets(bouquets) {
 
 renderBouquets(bouquets);
 
-
 const carousel = document.querySelector(".catalog-bouquets__carousel");
 const carouselInner = document.querySelector(
 	".catalog-bouquets__carousel-slide"
@@ -91,8 +90,6 @@ let currentIndex = 0;
 let cardsInARow;
 let cardWidth;
 
-// First call - just for defining cardsInARow
-// Next will be called when the screen is resizing
 setCardsSettings();
 window.addEventListener("resize", setCardsSettings, true);
 
@@ -101,12 +98,12 @@ function setCardsSettings() {
 	else if (window.innerWidth > 768) cardsInARow = 2;
 	else cardsInARow = 1;
 
-	cardWidth = 100/cardsInARow;
+	cardWidth = 100 / cardsInARow;
 	currentIndex = 0;
 	updateCarousel();
 
 	console.log("test:: ", window.innerWidth, `cards in a row: ${cardsInARow}`);
-	console.log("cardWidth:: ",cardWidth)
+	console.log("cardWidth:: ", cardWidth);
 }
 
 function updateCarousel() {
