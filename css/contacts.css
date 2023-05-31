@@ -1,13 +1,7 @@
-/* * {
-    margin: 0 auto;
-    color: var(--text-main-accent-color);
-} */
 
 .contacts {
     padding-bottom: 60px;
 }
-
-
 
 .contacts__promo {
     background: url("../images/about/top/about-background.png") 50% 50% / cover no-repeat;
@@ -137,6 +131,10 @@
     margin-bottom: 40px;
 }
 
+.delivery__descr {
+    width: 50%;
+}
+
 .delivery__title {
     font-size:var(--font-size-features-title-text);
     margin-bottom: 20px;
@@ -159,8 +157,20 @@
     margin-bottom: 40px;
 }
 
-.delivery__from {
+/* .delivery__from {
     display: block;
+    width: 600px;
+} */
+
+.delivery__advantages-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.delivery__img {
+    display: block;
+    width: 40px;
+    height: 40px;
 }
 
 .delivery__img-box {
@@ -170,6 +180,4 @@
     color: var(--text-main-accent-color);
     border-radius: 50%;
 }
-.delivery__img {
-    width: 40px;
-}
+
