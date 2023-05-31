@@ -1,5 +1,5 @@
 <div class="contacts">
-  <div class="contacts__container">
+  <div class="container">
 
     <div class="contacts__promo">
       <h3 class="contacts-title subtitle">Contacts</h3>
@@ -14,7 +14,7 @@
 </div>
 
 <section class="rules">
-  <div class="contacts__container">
+  <div class="container">
 
     <div class="rules__descr">
       
@@ -22,8 +22,8 @@
       <div class="rules__text">
 
         <div class="rules__descr-header">
-          <h2 class="rules-title title">Rules</h2>
-          <h3 class="main-title subtitle">Our Basic Rules</h3>
+          <h2 class="rules__title title">Rules</h2>
+          <h3 class="rules__subtitle subtitle">Our Basic Rules</h3>
           <span class="divider rules__divider"></span>
         </div>
 
@@ -50,48 +50,48 @@
         </ol>
       </div>
 
-      <div class="rules__faq">
+      <div class="faq">
         <div class="rules_faq-item">
-          <h4 class="rules__title">What flowers do you work with?</h4>
-          <span class="rules__faq-plus"></span>
+          <h4 class="faq__title">What flowers do you work with?</h4>
+          <span class="faq-plus"></span>
 
-          <p class="rules__faq-descr">
+          <p class="faq-descr">
             We work with absolutely all flowers. Roses, lilies, peonies, tulips, etc. — there are no favorite or unloved flowers for us.
           </p>
         </div>
 
         <div class="rules_faq-item">
-          <h4 class="rules__title">Do you create exotic bouquets?</h4>
-          <span class="rules__faq-plus"></span>
+          <h4 class="faq__title">Do you create exotic bouquets?</h4>
+          <span class="faq-plus"></span>
             
-          <p class="rules__faq-descr">
+          <p class="faq-descr">
             Yes, we work with exotic flowers, but only if they are available in our warehouse. Check the availability of the flowers you need by contacting us.
           </p>
         </div>
 
         <div class="rules_faq-item">
-          <h4 class="rules__title">Can I make an exclusive order?</h4>
-          <span class="rules__faq-plus"></span>
+          <h4 class="faq__title">Can I make an exclusive order?</h4>
+          <span class="faq-plus"></span>
 
-          <p class="rules__faq-descr">
+          <p class="faq-descr">
             Each bouquet we create is exclusive unless you want a number of identical compositions for your purposes.
           </p>
         </div>
 
         <div class="rules_faq-item">
-          <h4 class="rules__title">Can you decorate a cafe with flowers?</h4>
-          <span class="rules__faq-plus"></span>
+          <h4 class="faq__title">Can you decorate a cafe with flowers?</h4>
+          <span class="faq-plus"></span>
 
-          <p class="rules__faq-descr">
+          <p class="faq-descr">
             Yes, we provide decoration services and can fill your venue with selected flowers and beautiful compositions.
           </p>
         </div>
 
         <div class="rules_faq-item">
-          <h4 class="rules__title">Can I order a bouquet at night?</h4>
-          <span class="rules__faq-plus"></span>
+          <h4 class="faq__title">Can I order a bouquet at night?</h4>
+          <span class="faq-plus"></span>
 
-          <p class="rules__faq-descr">
+          <p class="faq-descr">
             Sure. Our florists work 24/7. Still, you'll need to pay extra for the delivery.
           </p>
         </div>
@@ -103,15 +103,16 @@
 </section>
 
 <div class="sales">
-  <div class="contacts__container">
+  <div class="container">
    <div class="sales__wrapper">
-      <span class="sales-discount">%%%%</span>
+      <span class="sales-discount">% % % %</span>
 
       <h3 class="sales__subtitle subtitle">Get Your First Order with a 15% Discount!</h2>
       <p class="sales__text">
         Get advantage of our special offer applicable to any bouquet or service.  
-        <i>* To get the discount, use the promo code SAMIFLO when submitting your order.</i>
       </p>
+
+      <span class="sales__text-additional">* To get the discount, use the promo code SAMIFLO when submitting your order.</span>
 
       <h2 class="sales__title title">Make  first  order</title>
    </div>
@@ -120,18 +121,21 @@
 </div>
 
 <section class="delivery">
-  <div class="contacts__container">
+  <div class="container">
     <div class="delivery__wrapper">
 
       <div class="delivery__descr">
-        <h2 class="cursive-title">Delivery</h2>
-        <h3 class="title-white">Delivery Conditions</h3>
-        <span class="divider"></span>
+
+        <h2 class="delivery__title title">Delivery</h2>
+        <h3 class="subtitle delivery__subtitle">Delivery Conditions</h3>
+        <span class="divider delivery__divider"></span>
         <p class="delivery__title-descr">Your order flowers — we deliver joy.</p>
 
         <div class="delivery__advantages">
             <div class="delivery__advantages-item">
-              <img src="https://git-scm.com/downloads/logos" alt="" class="delivery__icon">
+              <div class="delivery__img-box">
+                <img src="../../images/contacts/delivery-truck.svg" alt="delivery-truck" class="delivery__img">
+              </div>
               
               <div class="delivery__txt">
                 <h4>Same-Day Delivery</h4>
@@ -140,7 +144,9 @@
             </div>
 
             <div class="delivery__advantages-item">
-              <img src="https://git-scm.com/downloads/logos" alt="" class="delivery__icon">
+              <div class="delivery__img-box">
+                <img src="../../images/contacts/flower-shop.svg" alt="flower shop" class="delivery__img">
+              </div>
 
               <div class="delivery__txt">
                 <h4>Free Delivery for Orders Over $59</h4>
@@ -149,7 +155,9 @@
             </div>
 
             <div class="delivery__advantages-item">
-              <img src="https://git-scm.com/downloads/logos" alt="night delivery icon" class="delivery__icon">
+              <div class="delivery__img-box">
+                <img src="../../images/contacts/bouquet.svg" alt="boquette" class="delivery__img">
+              </div>
               
               <div class="delivery__txt">
                 <h4>Deliveries at Night</h4>
@@ -185,7 +193,7 @@
 </section>
 
 <section class="store">
-  <div class="contacts__container">
+  <div class="container">
     
     <img src="https://git-scm.com/downloads/logos" alt="our flowers shop">
 
