@@ -13,16 +13,17 @@
     flex: 0 0 100%;
     padding: 20px;
     box-sizing: border-box;
+    display: flex;
+    background-color: rgba(124, 118, 105, 0.03);
 }
 
-.animated-carousel .carousel__button {
+.animated-carousel .carousel-button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     background: none;
     border: none;
     font-size: 20px;
-    padding: 10px 20px;
     cursor: pointer;
 }
 
@@ -32,4 +33,17 @@
 
 .animated-carousel .carousel__btn--next {
     right: 10px;
+}
+
+.carousel-card__img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    max-height: 140px;
+}
+.carousel-card__img-container img {
+    display: block;
+    width: 70%;
+    max-height: 140px;
 }
