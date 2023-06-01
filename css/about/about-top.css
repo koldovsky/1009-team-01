@@ -99,7 +99,7 @@
 
 .top__info-image {
     margin-top: 45px;
-    padding: 50px;
+    padding: 35px;
 }
 
 .top__partners-text {
@@ -113,7 +113,8 @@
 }
 
 .top__history-image {
-    padding: 50px;
+    padding: 45px;
+    margin-right: 20px;
 }
 
 .top__history-image img {
@@ -183,6 +184,17 @@
     .top__video-src {
         min-height: 432px;
     }
+
+    .top__history-image {
+        margin-right: 25px;
+        padding: 40px;
+    }
+
+    .top__info-image {
+        margin-left: 25px;
+        padding: 45px;
+    }
+    
 }
 
 @media (min-width: 992px) {

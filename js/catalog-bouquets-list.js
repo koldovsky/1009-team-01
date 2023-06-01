@@ -127,3 +127,5 @@ nextButton.addEventListener("click", () => {
 
 	updateCarousel();
 });
+
+

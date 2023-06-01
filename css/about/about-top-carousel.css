@@ -1,4 +1,4 @@
-.animated-carousel {
+ .animated-carousel {
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -11,10 +11,10 @@
 
 .animated-carousel .carousel-card {
     flex: 0 0 100%;
-    padding: 20px;
     box-sizing: border-box;
     display: flex;
-    background-color: rgba(124, 118, 105, 0.03);
+    justify-content: center;
+    width: 178px;
 }
 
 .animated-carousel .carousel-button {
@@ -36,12 +36,12 @@
 }
 
 .carousel-card__img-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
+    width: 180px;
     max-height: 140px;
+    margin: 0 10px 0 10px;
+    background-color: rgba(124, 118, 105, 0.03);
 }
+
 .carousel-card__img-container img {
     display: block;
     width: 70%;

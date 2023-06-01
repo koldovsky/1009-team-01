@@ -9,3 +9,8 @@
     color: var(--text-name-item-color);
     background-size: cover;
 }
+
+.row > * {
+    padding-right: 0;
+    padding-left: 0;
+}
