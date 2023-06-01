@@ -1,22 +1,26 @@
-$(document).ready(function() {
-    $(".our-services__decoration-title").click(function() {
-        $(".our-services__decoration-content").toggle();
-        toggleSign($(".toggle-icon-decoration"));
-    });
-    $(".our-services__events-title").click(function() {
-        $(".our-services__events-content").toggle();
-        toggleSign($(".toggle-icon-events"));
-    });
-    $(".our-services__floral-design-title").click(function() {
-        $(".our-services__floral-design-content").toggle();
-        toggleSign($(".toggle-icon-floral"));
-    });
+const services = ['decoration', 'events', 'floral-design'];
 
-    function toggleSign(element) {
-        if (element.text() == "+") {
-            element.text("-");
-        } else {
-            element.text("+");
-        }
-    }
+services.forEach(service => {
+    const titles = document.querySelectorAll(`.our-services__${service}-title`);
+    const contents = document.querySelectorAll(`.our-services__${service}-content`);
+    const icons = document.querySelectorAll(`.toggle-icon-${service}`);
+
+    titles.forEach((title, index) => {
+        title.addEventListener('click', function () {
+            toggle(contents[index], icons[index]);
+        });
+    });
 });
+
+function toggle(contentElement, iconElement) {
+    const isDisplayed = contentElement.style.display === "block";
+
+    if (isDisplayed) {
+        contentElement.style.display = "none";
+        iconElement.textContent = "+";
+    }
+    else {
+        contentElement.style.display = "block";
+        iconElement.textContent = "-";
+    }
+}
