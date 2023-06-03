@@ -101,9 +101,6 @@ function setCardsSettings() {
 	cardWidth = 100 / cardsInARow;
 	currentIndex = 0;
 	updateCarousel();
-
-	console.log("test:: ", window.innerWidth, `cards in a row: ${cardsInARow}`);
-	console.log("cardWidth:: ", cardWidth);
 }
 
 function updateCarousel() {
@@ -111,8 +108,6 @@ function updateCarousel() {
 }
 
 prevButton.addEventListener("click", () => {
-	console.log("cardsInARow::: ", cardsInARow);
-
 	if (currentIndex === 0) currentIndex = productCards.length - cardsInARow;
 	else currentIndex--;
 
@@ -120,12 +115,8 @@ prevButton.addEventListener("click", () => {
 });
 
 nextButton.addEventListener("click", () => {
-	console.log("cardsInARow::: ", cardsInARow);
-
 	if (currentIndex + cardsInARow === productCards.length) currentIndex = 0;
 	else currentIndex++;
 
 	updateCarousel();
 });
-
-
