@@ -4,4 +4,6 @@ document.addEventListener("partialsLoaded", () => {
     import('./features.js');
     import('./catalog-bouquets-list.js');
     import('./our-services-acordion.js');
+    import('./shop-cart.js');
+    import('./catalog.js');
   });
