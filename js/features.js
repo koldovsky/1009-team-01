@@ -33,7 +33,7 @@ const changeFeaturesListItemsOrder = function() {
 	featuresList.innerHTML = featuresListHTMLContent;
 }
 
-setInterval(changeFeaturesListItemsOrder,  1000);
+setInterval(changeFeaturesListItemsOrder,  5000);
 
 window.addEventListener('resize', function() {
 	const featureTitles = document.querySelectorAll('.feature__title');
