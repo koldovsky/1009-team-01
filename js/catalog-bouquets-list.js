@@ -1,54 +1,6 @@
-const bouquets = [
-	{
-		id: "amphoraBouquet",
-		image: "./images/catalog-bouquets/amphora-bouquet.png",
-		name: "Amphora",
-		price: "72,00",
-		isActive: true,
-	},
-	{
-		id: "daphneBouquet",
-		image: "./images/catalog-bouquets/daphne-bouquet.png",
-		name: "Daphne",
-		price: "59,00",
-	},
-	{
-		id: "fantasyBouquet",
-		image: "./images/catalog-bouquets/fantasy-bouquet.png",
-		name: "Fantasy",
-		price: "119,00",
-	},
-	{
-		id: "autumnBouquet",
-		image: "./images/catalog-bouquets/autumn-bouquet.png",
-		name: "Autumn",
-		price: "69,00",
-	},
-	{
-		id: "josephineBouquet",
-		image: "./images/catalog-bouquets/josephine-bouquet.png",
-		name: "Josephine",
-		price: "99,00",
-	},
-	{
-		id: "graceBouquet",
-		image: "./images/catalog-bouquets/grace-bouquet.png",
-		name: "Grace",
-		price: "100,00",
-	},
-	{
-		id: "innocenceBouquet",
-		image: "./images/catalog-bouquets/innocence-bouquet.png",
-		name: "Innocence",
-		price: "90,00",
-	},
-	{
-		id: "sparkleBouquet",
-		image: "./images/catalog-bouquets/sparkle-bouquet.png",
-		name: "Sparkle",
-		price: "80,00",
-	},
-];
+const bouquetList = document.querySelector(
+	".catalog-bouquets__carousel-slide"
+);
 
 function renderBouquets(bouquets) {
 	let html = "";
@@ -57,18 +9,14 @@ function renderBouquets(bouquets) {
 		const active = bouquet.isActive ? "active" : "";
 
 		html += `<article class="carousel-bouquet-item ${active}">
-        <img src="${bouquet.image}" class="d-block w-100" alt="${bouquet.name}bouquet" />
+        <img src="${bouquet.imgSrc}" class="d-block w-100" alt="${bouquet.name}bouquet" />
         <div class="d-flex flex-column align-items-center">
           <p class="catalog-bouquets__name">${bouquet.name}</p>
-          <p class="catalog-bouquets__price">$${bouquet.price}USD</p>
+          <p class="catalog-bouquets__price">$${bouquet.price},00USD</p>
           <button class="catalog-bouquets__add-to-cart btn--primary">Add to cart</button>
         </div>
       </article>`;
 	}
-
-	const bouquetList = document.querySelector(
-		".catalog-bouquets__carousel-slide"
-	);
 	bouquetList.innerHTML = html;
 }
 

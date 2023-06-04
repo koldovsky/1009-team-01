@@ -1,5 +1,4 @@
 window.addEventListener("load", () => {
-	debugger
 	window.addEventListener("scroll", scrollFunction);
 });
 

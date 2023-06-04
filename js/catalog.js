@@ -2,18 +2,18 @@ const catalogGreetContent = document.querySelector('.catalog__content-greet');
 const catalogThankContent = document.querySelector('.catalog__content-thank');
 const catalogGoodContent = document.querySelector('.catalog__content-good');
 
-function renderContent() {
-    products.forEach((product) => {
-        if (product.id <= 3) {
-            if (product.oldPrice) {
+function renderContent(bouquets) {
+    bouquets.forEach((bouquet) => {
+        if (bouquet.id <= 3) {
+            if (bouquet.oldPrice) {
                 catalogGreetContent.innerHTML += `
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
-                        <a href="#"><img src="${product.imgSrc}" alt="${product.name}" class="catalog-item__image" /></a>
-                        <a href="#" class="catalog-item__name">${product.name}</a>
+                        <a href="#"><img src="${bouquet.imgSrc}" alt="${bouquet.name}" class="catalog-item__image" /></a>
+                        <a href="#" class="catalog-item__name">${bouquet.name}</a>
                         <div class="catalog-item__prices">
-                            <div class="catalog-item__old-price">${product.oldPrice}</div>
-                            <div class="catalog-item__price">$${product.price},00USD</div>
+                            <div class="catalog-item__old-price">${bouquet.oldPrice}</div>
+                            <div class="catalog-item__price">$${bouquet.price},00USD</div>
                         </div>
                         <button class="catalog-item__btn btn btn--primary">Add to cart</button>
                     </div>
@@ -22,25 +22,25 @@ function renderContent() {
                 catalogGreetContent.innerHTML += `
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
-                        <a href="#"><img src="${product.imgSrc}" alt="${product.name}" class="catalog-item__image" /></a>
-                        <a href="#" class="catalog-item__name">${product.name}</a>
+                        <a href="#"><img src="${bouquet.imgSrc}" alt="${bouquet.name}" class="catalog-item__image" /></a>
+                        <a href="#" class="catalog-item__name">${bouquet.name}</a>
                         <div class="catalog-item__prices">
-                            <div class="catalog-item__price">$${product.price},00USD</div>
+                            <div class="catalog-item__price">$${bouquet.price},00USD</div>
                         </div>
                         <button class="catalog-item__btn btn btn--primary">Add to cart</button>
                     </div>
                 </div>`
             }
-        } else if (product.id > 3 && product.id < 8) {
-            if (product.oldPrice) {
+        } else if (bouquet.id > 3 && bouquet.id < 8) {
+            if (bouquet.oldPrice) {
                 catalogThankContent.innerHTML += `
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
-                        <a href="#"><img src="${product.imgSrc}" alt="${product.name}" class="catalog-item__image" /></a>
-                        <a href="#" class="catalog-item__name">${product.name}</a>
+                        <a href="#"><img src="${bouquet.imgSrc}" alt="${bouquet.name}" class="catalog-item__image" /></a>
+                        <a href="#" class="catalog-item__name">${bouquet.name}</a>
                         <div class="catalog-item__prices">
-                            <div class="catalog-item__old-price">${product.oldPrice}</div>
-                            <div class="catalog-item__price">$${product.price},00USD</div>
+                            <div class="catalog-item__old-price">${bouquet.oldPrice}</div>
+                            <div class="catalog-item__price">$${bouquet.price},00USD</div>
                         </div>
                         <button class="catalog-item__btn btn btn--primary">Add to cart</button>
                     </div>
@@ -49,25 +49,25 @@ function renderContent() {
                 catalogThankContent.innerHTML += `
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
-                        <a href="#"><img src="${product.imgSrc}" alt="${product.name}" class="catalog-item__image" /></a>
-                        <a href="#" class="catalog-item__name">${product.name}</a>
+                        <a href="#"><img src="${bouquet.imgSrc}" alt="${bouquet.name}" class="catalog-item__image" /></a>
+                        <a href="#" class="catalog-item__name">${bouquet.name}</a>
                         <div class="catalog-item__prices">
-                            <div class="catalog-item__price">$${product.price},00USD</div>
+                            <div class="catalog-item__price">$${bouquet.price},00USD</div>
                         </div>
                         <button class="catalog-item__btn btn btn--primary">Add to cart</button>
                     </div>
                 </div>`
             }
         } else {
-            if (product.oldPrice) {
+            if (bouquet.oldPrice) {
                 catalogGoodContent.innerHTML += `
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
-                        <a href="#"><img src="${product.imgSrc}" alt="${product.name}" class="catalog-item__image" /></a>
-                        <a href="#" class="catalog-item__name">${product.name}</a>
+                        <a href="#"><img src="${bouquet.imgSrc}" alt="${bouquet.name}" class="catalog-item__image" /></a>
+                        <a href="#" class="catalog-item__name">${bouquet.name}</a>
                         <div class="catalog-item__prices">
-                            <div class="catalog-item__old-price">${product.oldPrice}</div>
-                            <div class="catalog-item__price">$${product.price},00USD</div>
+                            <div class="catalog-item__old-price">${bouquet.oldPrice}</div>
+                            <div class="catalog-item__price">$${bouquet.price},00USD</div>
                         </div>
                         <button class="catalog-item__btn btn btn--primary">Add to cart</button>
                     </div>
@@ -76,10 +76,10 @@ function renderContent() {
                 catalogGoodContent.innerHTML += `
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
-                        <a href="#"><img src="${product.imgSrc}" alt="${product.name}" class="catalog-item__image" /></a>
-                        <a href="#" class="catalog-item__name">${product.name}</a>
+                        <a href="#"><img src="${bouquet.imgSrc}" alt="${bouquet.name}" class="catalog-item__image" /></a>
+                        <a href="#" class="catalog-item__name">${bouquet.name}</a>
                         <div class="catalog-item__prices">
-                            <div class="catalog-item__price">$${product.price},00USD</div>
+                            <div class="catalog-item__price">$${bouquet.price},00USD</div>
                         </div>
                         <button class="catalog-item__btn btn btn--primary">Add to cart</button>
                     </div>
@@ -89,4 +89,4 @@ function renderContent() {
     })
 }
 
-renderContent();
+renderContent(bouquets);
