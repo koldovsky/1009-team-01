@@ -6,4 +6,5 @@ document.addEventListener("partialsLoaded", () => {
     import('./our-services-acordion.js');
     import('./shop-cart.js');
     import('./catalog.js');
+    import('./rules-acordion.js');
   });
