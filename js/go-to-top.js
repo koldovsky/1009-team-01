@@ -1,11 +1,14 @@
-window.addEventListener("load", () => {
-	window.addEventListener("scroll", scrollFunction);
-});
-
 const topBtn = createGoUpButton();
 
+window.addEventListener("scroll", scrollFunction);
+
 function scrollFunction() {
-	if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+	if (!topBtn) return;
+
+	if (
+		document?.body?.scrollTop > 50 ||
+		document?.documentElement?.scrollTop > 50
+	) {
 		topBtn.style.display = "block";
 	} else {
 		topBtn.style.display = "none";
