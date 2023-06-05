@@ -1,49 +1,75 @@
- .animated-carousel {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-}
-
-.animated-carousel__inner {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-
-.animated-carousel .carousel-card {
-    flex: 0 0 100%;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    width: 178px;
-}
-
-.animated-carousel .carousel-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: none;
-    border: none;
-    font-size: 20px;
+.carousel-button {
+	border: none;
+	background-color: transparent;
+	outline: none;
+	background: none;
     cursor: pointer;
 }
 
-.animated-carousel .carousel__btn--prev {
-    left: 10px;
+svg.bi-arrow-right-circle-fill:hover,
+svg.bi-arrow-left-circle-fill:hover {
+	fill: var(--text-main-accent-color);
 }
 
-.animated-carousel .carousel__btn--next {
-    right: 10px;
+#carousel-btn-icon-next {
+	background-size: cover;
+	height: 32px;
+	width: 32px;
+	display: block;
 }
 
-.carousel-card__img-container {
-    width: 180px;
-    max-height: 140px;
-    margin: 0 10px 0 10px;
+.animated-carousel__wrapper {
+	overflow: hidden;
+}
+
+.carousel-slide {
+	min-width: 100%;
+}
+
+.animated-carousel__slides {
+	transition: transform 0.5s ease-out;
+	display: flex;
+}
+
+.carousel-slide__img-container {
+    width: 270px;
+    height: 150px;
     background-color: rgba(124, 118, 105, 0.03);
 }
 
-.carousel-card__img-container img {
-    display: block;
-    width: 70%;
-    max-height: 140px;
+.carousel-slide__img-container img {
+    width: 45%;
+    height: 45%;
+}
+
+@media (min-width: 768px) {
+	.animated-carousel__slides {
+		display: flex;
+	}
+
+	.carousel-slide {
+		min-width: 50%;
+	}
+
+    .carousel-slide__img-container {
+        width: 280px;
+        height: 160px;
+    }
+}
+
+@media (min-width: 1024px) {
+	.carousel-slide {
+		min-width: 20%;
+	}
+
+    .carousel-slide__img-container {
+        width: 220px;
+        height: 160px;
+        margin: 0 15px 0 15px;
+    }
+
+    .carousel-slide__img-container img {
+        width: 55%;
+        height: 55%;
+    }
 }
