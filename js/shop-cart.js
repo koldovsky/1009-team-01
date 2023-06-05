@@ -1,9 +1,29 @@
 let cart = [];
 
-const addToCart = (id) => {
-    const item = bouquets.find((bouquet) => bouquet.id === id)
+function addToCart (id) {
+    if(cart.some((item) => item.id === id)) {
+        alert('Bouquet already in cart!');
+    } else {
+        const item = bouquets.find((bouquet) => bouquet.id === id)
 
-    console.log(item);
+    cart.push({
+        ...item,
+        numberOfUnits: 0
+    });
+
+    console.log(cart);
+
+    updateCart();
+    }
 }
 
-addToCart(cart[2])
+function updateCart() {
+    renderCartItems();
+    // renderSubtotal();
+}
+
+function renderCartItems() {
+
+}
+
+addToCart(bouquets[3].id)
