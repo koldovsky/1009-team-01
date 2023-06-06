@@ -174,19 +174,18 @@
 
       <div class="delivery__form">
         <form action="">
-          <label for="fname">Name</label>
-          <input type="text" name="fname" id="fname">
+          <!-- <label class="form__label" for="fname">Name</label> -->
+          <input class="form__input" type="text" name="fname" id="fname" placeholder="Name" required>
 
-          <label for="phone">Phone number*</label>
-          <input type="number" name="ph-number" id="ph-number">
+          <!-- <label class="form__label" for="phone">Phone number*</label> -->
+          <input class="form__input" type="number" name="ph-number" id="ph-number" placeholder="Phone number*" required>
 
-          <label for="email">Email*</label>
-          <input type="email" name="email" id="email">
+          <!-- <label class="form__label" for="email">Email*</label> -->
+          <input class="form__input" type="email" name="email" id="email" placeholder="Email*" required>
 
-          <label for="message">Message</label>
-          <input type="text" name="client-message" id="client-message">
+          <textarea class="form__textarea" wrap="soft" placeholder="Message" id="client-message"></textarea>
 
-          <input type="submit" value="Order Flowers">
+          <input class="form__btn" type="submit" value="Order Flowers">
 
         </form>
       </div>
@@ -198,47 +197,55 @@
 
 <section class="store">
   <div class="container">
+    <div class="store__wrapper">
 
-    <img src="https://git-scm.com/downloads/logos" alt="our flowers shop">
+      <img src="images/contacts/contacts-flowers.png" class="store-img" alt="our flowers shop">
 
-    <div class="store__descr">
-      <h2 class="cursive-title">Our store</h2>
-      <h3 class="title-white">Were Can You Find Us?</h3>
-      <span class="divider"></span>
-
-      <div class="store__info">
-        <p class="store__address">
-          Goddard Hall 80
-          Washington Square E,
-          New York, NY 10003, USA
-        </p>
-
-        <p class="store__contacts">
-          <a href="tel:+12345678901">+1 (234) 567 89 01</a>
-          <a href="tel:+12345678900">+1 (234) 567 89 00</a>
-          <a href="mailto:samisflowers@email.com">samisflowers@email.com</a>
-        </p>
-
+      <div class="store__descr">
+        <h2 class="title store__title">Our store</h2>
+        <h3 class="subtitle store__subtitle">Were Can You Find Us?</h3>
+        <span class="divider store__divider"></span>
+  
+        <div class="store__info">
+          <p class="store__address">
+            <span>Goddard Hall 80</span>
+            <br>
+            <span>Washington Square E,</span>
+            <br>
+            <span>New York, NY 10003, USA</span>
+          </p>
+  
+          <p class="store__contacts">
+            <a class="store__contacts-link" href="tel:+12345678901">+1 (234) 567 89 01</a>
+            <br>
+            <a class="store__contacts-link" href="tel:+12345678900">+1 (234) 567 89 00</a>
+            <br>
+            <a class="store__contacts-link" href="mailto:samisflowers@email.com">samisflowers@email.com</a>
+          </p>
+  
+        </div>
+  
+        <span class="divider store__divider-long"></span>
+  
+        <div class="store__workhours">
+          <p class="store__workhours-weekly">Monday – Friday:
+            7am – 7pm</p>
+  
+          <p class="store__workhours-holidays">Saturday – Sunday:
+            8am – 7pm</p>
+        </div>
+  
+        <a href="#map" class="store__btn">View on Map</a>
+  
       </div>
 
-      <span class="divider-long"></span>
-
-      <div class="store__workhours">
-        <p class="store__workhours-weekly">Monday – Friday:
-          7am – 7pm</p>
-
-        <p class="store__workhours-holidays">Saturday – Sunday:
-          8am – 7pm</p>
-      </div>
-
-      <a href="#map" class="store__map">View on Map</a>
-
-      <section id="map" class="map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9507.646700556217!2d-2.965845273701328!3d53.43428750518934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b216efda9671d%3A0x5daa2e216fe4a4b8!2zQW5maWVsZCwg0JvRltCy0LXRgNC_0YPQu9GMLCDQktC10LvQuNC60LAg0JHRgNC40YLQsNC90ZbRjw!5e0!3m2!1suk!2sua!4v1684453864935!5m2!1suk!2sua"
-          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </section>
     </div>
   </div>
 </section>
+
+<div id="map" class="map__wrapper">
+  <iframe class="map"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9507.646700556217!2d-2.965845273701328!3d53.43428750518934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b216efda9671d%3A0x5daa2e216fe4a4b8!2zQW5maWVsZCwg0JvRltCy0LXRgNC_0YPQu9GMLCDQktC10LvQuNC60LAg0JHRgNC40YLQsNC90ZbRjw!5e0!3m2!1suk!2sua!4v1684453864935!5m2!1suk!2sua"
+    style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
