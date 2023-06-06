@@ -9,8 +9,8 @@ function renderContent(bouquets) {
                 catalogGreetContent.innerHTML += `
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
-                        <a id="${bouquet.id}" href="shop/bouquet-page.html"><img src="${bouquet.imgSrc}" alt="${bouquet.name}" class="catalog-item__image" /></a>
-                        <a href="shop/bouquet-page.html" class="catalog-item__name">${bouquet.name}</a>
+                        <a id="${bouquet.id}" href="bouquet-page.html"><img src="${bouquet.imgSrc}" alt="${bouquet.name}" class="catalog-item__image" /></a>
+                        <a href="bouquet-page.html" class="catalog-item__name">${bouquet.name}</a>
                         <div id="${bouquet.id}" class="catalog-item__prices">
                             <div class="catalog-item__old-price">${bouquet.oldPrice}</div>
                             <div class="catalog-item__price">$${bouquet.price},00USD</div>
@@ -22,8 +22,8 @@ function renderContent(bouquets) {
                 catalogGreetContent.innerHTML += `
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
-                        <a href="shop/bouquet-page.html"><img src="${bouquet.imgSrc}" alt="${bouquet.name}" class="catalog-item__image" /></a>
-                        <a href="shop/bouquet-page.html" class="catalog-item__name">${bouquet.name}</a>
+                        <a href="bouquet-page.html"><img src="${bouquet.imgSrc}" alt="${bouquet.name}" class="catalog-item__image" /></a>
+                        <a href="bouquet-page.html" class="catalog-item__name">${bouquet.name}</a>
                         <div class="catalog-item__prices">
                             <div class="catalog-item__price">$${bouquet.price},00USD</div>
                         </div>
@@ -36,8 +36,8 @@ function renderContent(bouquets) {
                 catalogThankContent.innerHTML += `
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
-                        <a href="shop/bouquet-page.html"><img src="${bouquet.imgSrc}" alt="${bouquet.name}" class="catalog-item__image" /></a>
-                        <a href="shop/bouquet-page.html" class="catalog-item__name">${bouquet.name}</a>
+                        <a href="bouquet-page.html"><img src="${bouquet.imgSrc}" alt="${bouquet.name}" class="catalog-item__image" /></a>
+                        <a href="bouquet-page.html" class="catalog-item__name">${bouquet.name}</a>
                         <div class="catalog-item__prices">
                             <div class="catalog-item__old-price">${bouquet.oldPrice}</div>
                             <div class="catalog-item__price">$${bouquet.price},00USD</div>
@@ -49,8 +49,8 @@ function renderContent(bouquets) {
                 catalogThankContent.innerHTML += `
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
-                        <a href="shop/bouquet-page.html"><img src="${bouquet.imgSrc}" alt="${bouquet.name}" class="catalog-item__image" /></a>
-                        <a href="shop/bouquet-page.html" class="catalog-item__name">${bouquet.name}</a>
+                        <a href="bouquet-page.html"><img src="${bouquet.imgSrc}" alt="${bouquet.name}" class="catalog-item__image" /></a>
+                        <a href="bouquet-page.html" class="catalog-item__name">${bouquet.name}</a>
                         <div class="catalog-item__prices">
                             <div class="catalog-item__price">$${bouquet.price},00USD</div>
                         </div>
@@ -63,8 +63,8 @@ function renderContent(bouquets) {
                 catalogGoodContent.innerHTML += `
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
-                        <a href="shop/bouquet-page.html"><img src="${bouquet.imgSrc}" alt="${bouquet.name}" class="catalog-item__image" /></a>
-                        <a href="shop/bouquet-page.html" class="catalog-item__name">${bouquet.name}</a>
+                        <a href="bouquet-page.html"><img src="${bouquet.imgSrc}" alt="${bouquet.name}" class="catalog-item__image" /></a>
+                        <a href="bouquet-page.html" class="catalog-item__name">${bouquet.name}</a>
                         <div class="catalog-item__prices">
                             <div class="catalog-item__old-price">${bouquet.oldPrice}</div>
                             <div class="catalog-item__price">$${bouquet.price},00USD</div>
@@ -76,8 +76,8 @@ function renderContent(bouquets) {
                 catalogGoodContent.innerHTML += `
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
-                        <a href="shop/bouquet-page.html"><img src="${bouquet.imgSrc}" alt="${bouquet.name}" class="catalog-item__image" /></a>
-                        <a href="shop/bouquet-page.html" class="catalog-item__name">${bouquet.name}</a>
+                        <a href="bouquet-page.html"><img src="${bouquet.imgSrc}" alt="${bouquet.name}" class="catalog-item__image" /></a>
+                        <a href="bouquet-page.html" class="catalog-item__name">${bouquet.name}</a>
                         <div class="catalog-item__prices">
                             <div class="catalog-item__price">$${bouquet.price},00USD</div>
                         </div>

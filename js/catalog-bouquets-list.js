@@ -9,12 +9,18 @@ function renderBouquets(bouquets) {
 		const active = bouquet.isActive ? "active" : "";
 
 		html += `<article class="carousel-bouquet-item ${active}">
-        <img src="${bouquet.imgSrc}" class="d-block w-100" alt="${bouquet.name}bouquet" />
-        <div class="d-flex flex-column align-items-center">
-          <p class="catalog-bouquets__name">${bouquet.name}</p>
-          <p class="catalog-bouquets__price">$${bouquet.price},00USD</p>
-          <button class="catalog-bouquets__add-to-cart btn--primary">Add to cart</button>
-        </div>
+        <a href="bouquet-page.html">
+			<img src="${bouquet.imgSrc}" class="d-block w-100" alt="${bouquet.name}bouquet" />
+		</a>
+		<div class="d-flex flex-column align-items-center">
+			<div class="d-flex flex-column align-items-center">
+				<a href="bouquet-page.html">
+					<p class="catalog-bouquets__name">${bouquet.name}</p>
+				 </a>
+          		<p class="catalog-bouquets__price">$${bouquet.price},00USD</p>
+        	</div>
+			<button class="catalog-bouquets__add-to-cart btn--primary">Add to cart</button>
+		</div>
       </article>`;
 	}
 	bouquetList.innerHTML = html;
