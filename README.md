@@ -1,4 +1,4 @@
-# HTML Template Repository with HTML Proofer
+# HTML Template Repository with HTML Prooferfdf
 
 This template repository includes preconfigured GitHub Action that will validate html files in a project with (HTMLProofer)[https://github.com/gjtorikian/html-proofer/].
 
